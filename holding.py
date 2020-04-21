@@ -43,11 +43,17 @@ def main():
     *Personal Protective Equipment* (PPE from now on) includes masks, gloves and other clothing that must be worn by healthcare professionals working with infected patients. 
     It is requirement for them to work safely and to protect the workforce and their families ([What is PPE?](https://www.bbc.co.uk/news/health-52254745))
 
-    We are collecting and sharing anonymous contributions about the real-time regional availability of PPE direct from users of our products.
+    Starting today, 21st April, We are collecting and sharing anonymous contributions about the real-time regional availability of PPE direct from users of our products.
     """
   )
 
-  st.image("./static/images/device-preview.png")
+  st.image("./static/images/device-preview.png", 
+            caption="In-app data collection", 
+            width=300)
+
+  #st.header("Contribute your PPE data")
+
+
 
   
 
