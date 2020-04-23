@@ -15,4 +15,4 @@ Maintained by the Product Team - lead developer Ed Wallitt.
 
 ## Deployment
 
-Built for deployment on Heroku
+Built for deployment on Heroku.
