@@ -81,16 +81,16 @@ def render_initial_analysis():
         
         The following represents data gathered from UK clinicians since 1500 on 22nd April, 2020.
         
-        **Last updated: 23rd April, 1430**
+        **Last updated: 23rd April, 1550**
         """
     )
 
     st.subheader("Do you feel you and your team have enough PPE today?")
-    st.info("n = 547")
+    st.info("n = 806")
 
     # static for the moment as MP not showing most recent events
     data = pd.DataFrame(
-        np.array([[393], [154]]),
+        np.array([[537], [194]]),
         columns=['total'],
         index=['Yes', 'No']
     )
