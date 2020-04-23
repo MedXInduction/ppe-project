@@ -4,14 +4,18 @@ Writtne by Ed Wallitt from Induction Healthcare Group PLC
 """
 import datetime
 import hashlib
-import urllib.request, urllib.parse, urllib.error
 import time
+import urllib.error
+import urllib.parse
+import urllib.request
+
+import pandas as pd
+
 try:
     import json
 except ImportError:
     import simplejson as json
 
-import pandas as pd
 
 VERSION = '2.0'  # Mixpanel API version
 date_format = '%Y-%m-%d'  # Mixpanel's API date format

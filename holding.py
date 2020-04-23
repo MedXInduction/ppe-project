@@ -1,59 +1,61 @@
-import streamlit as st
-import mixpanel as mp
 import time
-import os
+
+import streamlit as st
 
 
 def main():
-  st.sidebar.title("About PPE UK Live")
-  st.sidebar.markdown(
-  """
+    st.sidebar.title("About PPE UK Live")
+    st.sidebar.markdown(
+        """
   An open data project by the team at [Induction Healthcare](https://induction-app.com)
   """
-    
-)
 
-  st.sidebar.subheader("Contact")
-  st.sidebar.info(
-    "This is an open source project and you are very welcome to **contribute comments, questions, and further analysis**"
-    
-    "For questions, access to our data, or to help with this project please feel free to contact us via contact@induction-app.com"
-    
-  )
+    )
 
-  st.sidebar.subheader("PPE Projects")
-  st.sidebar.markdown(
-  """
+    st.sidebar.subheader("Contact")
+    st.sidebar.info(
+        "This is an [open source project](https://github.com/MedXInduction/ppe-project) and you are very welcome to "
+        "contribute comments, questions, and further analysis. "
+
+        "For questions, access to the data, or  help with this project please feel free to contact us via "
+        "contact@induction-app.com."
+
+    )
+
+    st.sidebar.subheader("PPE Projects")
+    st.sidebar.markdown(
+        """
   While we prepare to launch our data analysis please checkout these great PPE projects:
 
   * [Frontline Map](http://frontline.live/)
   * [The Need](https://www.thenead.co.uk/)
   * [Donate your PPE](https://www.donateyourppe.uk/)
   """
-  )
+    )
 
+    st.title("PPE UK Live")
+    st.subheader(
+        "A public service project by the team behind the [Induction App](https://induction-app.com) and [Microguide]("
+        "http://www.microguide.eu/)")
 
-  st.title("PPE UK Live")
-  st.subheader("A public service project by the team behind the [Induction App](https://induction-app.com) and [Microguide](http://www.microguide.eu/)")
+    st.info("We are just gathering data, please check back soon to view our results")
 
-  st.info("We are just gathering data, please check back soon to view our results")
+    progress_bar = st.progress(0)
+    for percent_complete in range(80):
+        time.sleep(0.02)
+        progress_bar.progress(percent_complete + 1)
 
-  progress_bar = st.progress(0)
-  for percent_complete in range(80):
-    time.sleep(0.02)
-    progress_bar.progress(percent_complete + 1)
+    st.write("Data gathering still in progress...80% complete")
 
-  st.write("Data gathering still in progress...80% complete")
-
-  st.markdown(
-    """
+    st.markdown(
+        """
     ---
     """
-  )
+    )
 
-  st.header("How it works?")
-  st.markdown(
-    """
+    st.header("How it works?")
+    st.markdown(
+        """
     Induction Healthcare provides over 150,000 frontline healthcare professionals with the resources and tools to support their work.
 
     *Personal Protective Equipment* (PPE from now on) includes masks, gloves and other clothing that must be worn by healthcare professionals working with infected patients. 
@@ -61,21 +63,13 @@ def main():
 
     Starting today, 22nd April, We are collecting and sharing anonymous contributions about the real-time regional availability of PPE direct from users of our products.
     """
-  )
+    )
 
-  st.image("./static/images/device-preview.png", 
-            caption="In-app data collection", 
-            width=300)
-
-  #st.header("Contribute your PPE data")
-  #times = int(os.environ.get('TIMES',3))
-  #st.write('Hello! ' * times)
-
-
-
-  
+    st.image("./static/images/device-preview.png",
+             caption="How we collect PPE data from our users",
+             format="PNG",
+             width=300)
 
 
 if __name__ == "__main__":
-  main()
-
+    main()

@@ -113,3 +113,6 @@ gallery/file_uploader/datamodelsanalytics.png
 
 apd-core/
 .vscode/
+
+#pycharm
+.idea/
