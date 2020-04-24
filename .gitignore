@@ -116,3 +116,6 @@ apd-core/
 
 #pycharm
 .idea/
+
+#jupyter
+notebooks/

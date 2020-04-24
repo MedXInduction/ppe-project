@@ -1,0 +1,1137 @@
+,time,mp_country_code,hospital,sufficient-supply,distinct_id
+0,2020-04-22 10:53:40,GB,INHC Triage Space,False,a02b74ce-b0a8-40ea-844c-ef1e61fe7506
+1,2020-04-22 10:53:43,GB,NHSX TeamSpace,False,6efbcf9f-1fea-486a-8fd6-76d1c74ab486
+2,2020-04-22 10:56:27,GB,NHSX TeamSpace,False,6efbcf9f-1fea-486a-8fd6-76d1c74ab486
+3,2020-04-22 10:57:09,GB,INHC Triage Space,False,a02b74ce-b0a8-40ea-844c-ef1e61fe7506
+4,2020-04-22 10:57:17,GB,INHC Triage Space,True,a02b74ce-b0a8-40ea-844c-ef1e61fe7506
+5,2020-04-22 11:09:00,GB,SG Test 2,True,1606d3b0-39bc-45e0-91c0-afbdc9df9f71
+6,2020-04-22 13:36:30,GB,Royal Stoke Hospital,True,126e6feb-d46e-4c61-8cf8-c512f3ddff97
+7,2020-04-22 13:49:07,GB,Croydon University Hospital,True,2759
+8,2020-04-22 14:03:33,GB,UTC Clinicians,False,67241
+9,2020-04-22 14:51:38,GB,Ninewells Hospital,True,71893394-e2d1-4b4f-be2f-2f2f1da33581
+10,2020-04-22 14:57:10,GB,Royal Hospital for Children,True,1639
+11,2020-04-22 14:57:26,GB,Watford General Hospital,False,2db244bc-54ad-494e-bfb9-6e2ea2bfb36c
+12,2020-04-22 15:09:04,GB,Royal Liverpool University Hospital,False,89f36758-a7ff-4cef-b770-fbcad5512f91
+13,2020-04-22 15:24:20,GB,Horton General Hospital,True,70205790-ae39-4894-913e-0c387a41bd95
+14,2020-04-22 15:34:47,GB,North Middlesex Hospital,True,e9d9c53a-342e-4291-9d38-4c6a4fd1adef
+15,2020-04-22 15:36:14,US,Jacobi Medical Center -NYC,True,c2684174-179e-4f48-a03a-c50b794f1910
+16,2020-04-22 15:40:55,GB,Northwick Park & St Marks Hospital,False,c6056696-acc3-4f69-ac00-2b2096739874
+17,2020-04-22 15:49:41,GB,Queen Elizabeth Hospital (Birmingham),True,99c3e21c-6cd5-42b3-9c6d-931d8ad582a3
+18,2020-04-22 15:54:50,GB,Glenfield General Hospital,True,0d1828cd-7fb7-441a-98b6-8409e6eaac8e
+19,2020-04-22 16:00:23,GB,St George's (London),True,a67f9020-c28b-47ac-9957-c9006c373908
+20,2020-04-22 16:12:27,GB,Watford General Hospital,True,800012943
+21,2020-04-22 16:25:43,GB,Kingston Hospital,True,5a93ec85-155e-486f-adf2-f37d68f101d8
+22,2020-04-22 16:26:06,ZA,Tygerberg Hospital,True,b2c55249-6701-4316-befa-3973a49fe81c
+23,2020-04-22 16:39:38,GB,Whipps Cross University Hospital,False,62772
+24,2020-04-22 16:42:50,GB,Barnsley Hospital - Medicine,True,11085
+25,2020-04-22 16:54:04,GB,Ninewells Hospital,True,cb5a9572-01f9-495a-a581-87ab564fbd4a
+26,2020-04-22 16:55:36,GB,Royal Victoria Hospital (Belfast),False,ac39d231-c9d9-4650-8e85-d867b04b153c
+27,2020-04-22 18:17:57,GB,Barnet Hospital - General Medicine,True,3924
+28,2020-04-22 18:36:08,GB,Imperial - Radiology,True,61376
+29,2020-04-22 18:37:44,ZA,Groote Schuur Hospital,False,45586
+30,2020-04-22 19:02:57,GB,University College London Hospital NHS Trust,True,982ba30d-a936-4944-adc2-ac9b6da94d35
+31,2020-04-22 19:03:18,GB,University College London Hospital NHS Trust,True,982ba30d-a936-4944-adc2-ac9b6da94d35
+32,2020-04-22 19:03:25,GB,University College London Hospital NHS Trust,True,982ba30d-a936-4944-adc2-ac9b6da94d35
+33,2020-04-22 19:05:22,GB,Craigavon Area Hospital,True,7793f2a8-95fc-478d-bf51-d6a8e6bb21e9
+34,2020-04-22 19:08:55,GB,University Hospital Llandough,True,e5a1868a-08ba-4082-93a7-4893e5183a9f
+35,2020-04-22 19:12:20,GB,Belfast City Hospital,True,800012992
+36,2020-04-22 19:24:44,GB,Bradford Royal Infirmary,True,0125e9a3-1060-4b8d-8c0f-d878315a6327
+37,2020-04-22 19:27:18,GB,Musgrave Park Hospital,True,d14d7b49-5678-42ee-a10a-7b21e4d0a02b
+38,2020-04-22 19:32:18,GB,Queen Elizabeth The Queen Mother Hospital,False,d05319ab-f4b6-4180-a190-9058dba5be1a
+39,2020-04-22 19:36:09,GB,Great Ormond Street Hospital NHS Trust,True,fccf0672-5b9f-4177-a6a3-47776ffbf755
+40,2020-04-22 19:41:49,GB,Norfolk and Norwich University Hospital,True,5984
+41,2020-04-22 19:42:29,GB,Chorley and South Ribble District General Hospital,True,48582
+42,2020-04-22 19:51:26,DK,University College London Hospital NHS Trust,True,17218
+43,2020-04-22 19:55:16,GB,Bramhall & Shaw Health Medical Group,True,55804
+44,2020-04-22 20:24:40,GB,Royal Victoria Hospital (Belfast) - ENT,False,70527
+45,2020-04-22 20:26:45,GB,Manchester Royal Infirmary,True,b4b538cd-5e27-439b-a30a-c25ee42ea265
+46,2020-04-22 20:44:42,GB,East Surrey Hospital,True,0a2cca23-5bc7-42e1-bf5e-b20306c01ed0
+47,2020-04-22 20:45:51,GB,York District General Hospital,True,679546b5-5cbc-48ac-ab5d-e495978aaa7d
+48,2020-04-22 21:11:37,GB,Aberdeen Royal Infirmary,True,3fef9768-fee5-4972-a5ce-02a90b368b53
+49,2020-04-22 21:22:30,GB,Norfolk and Norwich University Hospital,True,800013010
+50,2020-04-22 21:33:05,GB,Charing Cross,True,46191
+51,2020-04-22 21:41:43,GB,Barnet Hospital,True,f38e5326-b9d1-40fe-b3af-d917428c86ba
+52,2020-04-22 21:56:00,GB,Sunderland Royal Hospital,True,3601c13e-4c5b-4c86-90a4-bacddaf45e62
+53,2020-04-22 22:04:08,GB,North Manchester General Hospital,True,5086
+54,2020-04-22 22:08:15,GB,University Hospital of Wales,True,17613
+55,2020-04-22 22:09:39,GB,Royal Sussex County Hospital,True,1951492e-25eb-464f-8995-dc4749620255
+56,2020-04-22 22:14:35,GB,Royal Gwent Hospital,True,a90ccc99-e277-4429-a7e7-5d62594f96be
+57,2020-04-22 22:23:16,GB,Bedford Hospital,True,800013019
+58,2020-04-22 22:38:54,GB,King's College Hospital,True,9bde28f6-2e0b-46c2-b41f-d9969d39541c
+59,2020-04-22 22:38:54,GB,King's College Hospital,True,9bde28f6-2e0b-46c2-b41f-d9969d39541c
+60,2020-04-22 22:41:29,GB,Walsall Manor,True,0a421cf7-fa7d-40e9-a35b-5388ddfd3e47
+61,2020-04-22 22:48:54,GB,University College London Hospital NHS Trust,True,333f0be8-715d-4a1d-821a-d6576035bd07
+62,2020-04-22 22:52:41,GB,St Peter's Hospital,False,fff8c621-7c07-4901-9f36-60a22b4b20b9
+63,2020-04-22 22:57:46,GB,Ealing Hospital,False,2eadf9f4-adaf-4a55-90b0-279bc7caa8be
+64,2020-04-22 22:58:37,GB,Alder Hey Children's Hospital,False,f61f454f-a46b-45c3-b9e4-c7c849d479d2
+65,2020-04-22 22:58:37,GB,Alder Hey Children's Hospital,False,f61f454f-a46b-45c3-b9e4-c7c849d479d2
+66,2020-04-22 23:08:53,GB,Katherine Monk COVID,True,65515
+67,2020-04-22 23:11:18,GB,Medway Maritime Hospital (rehab-Front Block),False,25524
+68,2020-04-22 23:36:58,GB,Royal Albert Edward Infirmary,True,c738d969-cbf8-4cab-b978-6a8c65049e79
+69,2020-04-22 23:41:37,GB,Royal Sussex County Hospital,True,338261e9-ccff-4f71-9dd0-f15eed7a2711
+70,2020-04-22 23:45:54,GB,Broomfield Hospital,True,f7940f18-00c1-4b78-8e33-0e318adb27e9
+71,2020-04-22 23:49:30,AU,Induction Healthcare Group,True,5f67230d-0a95-4039-81f9-cda1fdcdcbbf
+72,2020-04-22 23:59:01,GB,George Eliot Hospital - Acute Services,True,576f3d85-7461-4f6c-b052-58265620df22
+73,2020-04-23 00:05:30,GB,Royal Devon and Exeter - Emergency Department,True,74313
+74,2020-04-23 00:11:09,GB,The Royal Liverpool University Hospital,True,a98d771a-46a9-4805-98e0-669499d04ef2
+75,2020-04-23 00:11:45,GB,Royal Free Hospital,False,33ef0bec-03d7-4d8b-a892-b992c0433695
+76,2020-04-23 00:31:59,GB,Royal Free COVID-19,True,5acce004-ff5a-4f93-bb3a-e8375585fce8
+77,2020-04-23 00:39:16,GB,Critical Care - Medway Maritime Hospital (rehab-Front Block),True,44926
+78,2020-04-23 01:00:52,GB,West Middlesex University Hospital,False,39593b4b-e4e1-40dc-adcf-81ce5a5554f5
+79,2020-04-23 01:03:03,US,Jacobi Medical Center -NYC,True,400010432
+80,2020-04-23 01:21:23,GB,Medway Maritime Hospital (rehab-Front Block),True,36171
+81,2020-04-23 01:23:30,GB,Manchester Royal Infirmary,True,800011818
+82,2020-04-23 01:25:47,GB,The Whittington Hospital,True,22602
+83,2020-04-23 01:35:42,GB,Warrington Hospital,True,53190c40-debd-4e6d-9022-2aff62c6e992
+84,2020-04-23 01:40:20,GB,Aberdeen Royal Infirmary,True,9005
+85,2020-04-23 01:46:54,AU,Austin Health,True,54546
+86,2020-04-23 01:46:54,AU,Austin Health,True,54546
+87,2020-04-23 01:51:40,GB,Northern General Hospital,True,1843
+88,2020-04-23 01:58:59,GB,Hull Royal Infirmary,False,5932ddd4-7c65-4bb1-894e-6affc648920f
+89,2020-04-23 02:05:07,GB,Wexham Park Hospital,False,b5011a55-51c6-485f-9b20-3668bbe8889d
+90,2020-04-23 02:14:22,AU,Royal Hobart Hospital,True,1764
+91,2020-04-23 02:41:08,ZA,Groote Schuur Hospital,True,79b25070-7f49-47e1-8637-5f286a54bd38
+92,2020-04-23 02:45:57,GB,Great Western Hospital,False,8f82c4f0-efa9-4698-994d-0bb101a479eb
+93,2020-04-23 02:58:24,GB,Lewisham Hospital,True,19147
+94,2020-04-23 03:03:22,GB,Alder Hey Children's Hospital,True,20130
+95,2020-04-23 03:03:48,GB,Royal Free Hospital,True,10398
+96,2020-04-23 03:09:31,GB,Barnet Hospital,False,800013042
+97,2020-04-23 03:11:53,GB,Royal Cornwall Hospital (treliske),False,53400
+98,2020-04-23 03:23:31,US,NY - HHC Jacobi Hospital,True,16821
+99,2020-04-23 03:30:42,GB,Prince Charles Hospital,True,1556
+100,2020-04-23 03:45:50,GB,Queen Elizabeth Hospital (Birmingham),True,d90ea3cb-c736-4d22-b69f-1e4e2ddc7399
+101,2020-04-23 03:45:50,GB,Queen Elizabeth Hospital (Birmingham),True,d90ea3cb-c736-4d22-b69f-1e4e2ddc7399
+102,2020-04-23 04:15:51,GB,Tameside General Hospital,True,6813710c-3a2f-4298-b6e0-70e7be65fc43
+103,2020-04-23 04:22:50,GB,Derriford Hospital,True,62478
+104,2020-04-23 04:39:34,GB,Queen's Hospital,True,5979
+105,2020-04-23 05:02:05,GB,St Mary's Hospital (Paddington),True,7560
+106,2020-04-23 05:28:42,GB,Great Ormond Street Hospital NHS Trust,False,2ec68116-c605-40b4-8cc1-c48e70733172
+107,2020-04-23 05:46:16,GB,Lewisham Hospital,True,7113
+108,2020-04-23 06:03:48,GB,Scunthorpe General Hospital,False,5a6fa506-5666-48ce-b845-d2c2049bb844
+109,2020-04-23 06:50:48,GB,Northern General Hospital,True,93fc59b4-d6b4-45cb-902f-a62666368ecc
+110,2020-04-23 07:11:57,GB,William Harvey Hospital (ashford),False,8a818e8d-e363-4456-bf95-700ed6d6a4dd
+111,2020-04-23 07:21:45,GB,Royal Gwent Hospital,True,12320
+112,2020-04-23 07:29:25,GB,King's College Hospital,True,3432
+113,2020-04-23 07:31:27,GB,Basildon University Hospital,True,2a9a6949-2fa9-4292-b3c8-f7bfb7e64b96
+114,2020-04-23 07:50:12,GB,Dr Gray's Hospital,True,cbff1a1d-1521-4f1f-9a96-9c13301c634d
+115,2020-04-23 08:00:07,AU,Austin Health,True,af2efc04-9428-44ea-bbd9-d3bfdbeebb86
+116,2020-04-23 08:28:47,ZA,Livingstone Hospital,False,ea5d91dc-accc-423d-b0c0-299762aefdd3
+117,2020-04-23 08:37:44,GB,St Thomas' Hospital,True,20325
+118,2020-04-23 08:38:21,GB,Vascular Access Team,True,24525
+119,2020-04-23 08:38:41,GB,NUH ED,True,50252
+120,2020-04-23 08:40:59,GB,St Helier Hospital,False,21841
+121,2020-04-23 08:46:08,GB,St George's (London),True,65417
+122,2020-04-23 08:47:43,GB,Queen's Hospital Romford,True,7e9a0308-a540-4591-a397-a374e871f928
+123,2020-04-23 08:48:28,GB,Barnsley District General Hospital,True,33345
+124,2020-04-23 08:49:26,GB,University Hospital of Wales,False,73375
+125,2020-04-23 08:49:51,GB,Raigmore Hospital,True,36230
+126,2020-04-23 08:56:59,MT,Mater Dei Hospital (Malta),False,52ad7629-675b-4221-877e-eb73b43a279f
+127,2020-04-23 09:14:34,GB,Lister Hospital,True,13258
+128,2020-04-23 09:18:10,GB,Lister Hospital,True,26469
+129,2020-04-23 09:18:41,GB,Manchester Royal Infirmary,True,6ba50987-22bd-4b4c-a8c9-c5111aa7e572
+130,2020-04-23 09:21:13,GB,Countess Of Chester Hospital,True,30519e04-03b9-4e63-bd10-7feb116ca5c8
+131,2020-04-23 09:22:19,ZA,Oudtshoorn Hospital (Western Cape),True,24906
+132,2020-04-23 09:23:13,GB,Royal United Hospital,True,705b7297-e432-4332-af41-41bd60202957
+133,2020-04-23 09:25:43,GB,Medway Maritime Hospital (rehab-Front Block),True,28206
+134,2020-04-23 09:26:41,GB,Wythenshawe Hospital,False,203c018b-a8e9-49eb-a4f0-9a189fe4bd6d
+135,2020-04-23 09:28:52,MT,Mater Dei Hospital (Malta),True,7d04cc53-3d29-4bfc-88f2-1b73988ead1a
+136,2020-04-23 09:30:06,GB,Wrexham Maelor Hospital,True,62547
+137,2020-04-23 09:32:01,GB,Royal Alexandra Hospital - Acute Medicine,True,11999
+138,2020-04-23 09:33:52,GB,Ealing Hospital,True,64463
+139,2020-04-23 09:35:48,GB,Royal Gwent Hospital,True,e70677bb-9e51-4d97-8746-40070101e224
+140,2020-04-23 09:36:32,GB,Ipswich Hospital,True,26179
+141,2020-04-23 09:36:55,GB,Lister Hospital,False,17300
+142,2020-04-23 09:37:58,GB,Stepping Hill Hospital,False,66107
+143,2020-04-23 09:40:55,GB,Princess Royal University Hospital (Kent),True,30434
+144,2020-04-23 09:43:11,GB,Royal United Hospital,True,50473
+145,2020-04-23 09:43:38,US,NY - HHC Jacobi Hospital,True,10977
+146,2020-04-23 09:45:20,GB,Royal Infirmary of Edinburgh,True,20615
+147,2020-04-23 09:45:50,GB,Belfast City Hospital,False,afcae5da-7ad7-468a-ad58-ec91aa8ac6da
+148,2020-04-23 09:46:32,GB,Northern General Hospital,True,cd194d02-2dbd-4de5-8761-c5d5fd700c92
+149,2020-04-23 09:47:35,GB,Lewisham Hospital,False,2ffc3edb-4654-426a-84e8-2b92b770e256
+150,2020-04-23 09:50:23,GB,University Hospital Aintree,False,e456af1d-5773-4db7-bddb-07b4d5bb6e9b
+151,2020-04-23 09:51:58,GB,Southmead Hospital,False,53519bf1-26da-4e69-a32b-c4e1219940c0
+152,2020-04-23 09:54:27,GB,Orthopaedic Team,True,e80a55e6-a707-423b-aea9-5765a985802f
+153,2020-04-23 09:57:53,GB,King's College Hospital,False,20003
+154,2020-04-23 09:58:38,GB,Kettering General Hospital,True,64aec7e2-2290-49ad-a9a9-5b7666649c7f
+155,2020-04-23 09:59:18,GB,Southampton General Hospital,True,e2d39aee-64cc-4172-8c9d-0348a98ac93d
+156,2020-04-23 09:59:19,GB,Glasgow Royal Infirmary,True,f87041e2-5c1d-4137-ac8e-c5e7cb88d9cf
+157,2020-04-23 10:00:04,GB,Royal Alexandra Hospital (Paisley),True,c02e10e0-a991-460e-bb8e-effdc87ba82b
+158,2020-04-23 10:00:04,GB,George Eliot Hospital - Acute Services,True,b2c43949-a9cb-4ae8-b6c4-c817bd04b578
+159,2020-04-23 10:00:52,GB,Watford General Hospital,False,d49a03b8-f5f5-44ca-898f-85c6fb617b40
+160,2020-04-23 10:01:54,GB,Sandwell General Hospital,True,61565
+161,2020-04-23 10:01:55,GB,Southampton General Hospital,True,19746
+162,2020-04-23 10:02:49,GB,Castle Hill Hospital,False,3ff11168-9faf-400e-8330-534525fe7a24
+163,2020-04-23 10:02:50,GB,NUH ED,True,668d6dd2-a42c-49dc-9e9b-63663319df27
+164,2020-04-23 10:04:21,GB,Medway Maritime Hospital (rehab-Front Block),True,62656
+165,2020-04-23 10:04:38,ZA,Tygerberg COVID-19,True,400010196
+166,2020-04-23 10:05:02,GB,Northern General Hospital,True,8f70122c-86be-4188-88ae-8412c2c9ec4a
+167,2020-04-23 10:05:47,GB,Cambridge University Hospital,False,21423
+168,2020-04-23 10:05:59,ZA,Tygerberg Hospital,False,ea581087-4c15-4a8f-bfcd-5c2a1a28806d
+169,2020-04-23 10:07:01,GB,Princess Royal University Hospital (Kent),False,1924
+170,2020-04-23 10:07:10,GB,Medway Maritime Hospital (rehab-Front Block),True,42178
+171,2020-04-23 10:08:17,GB,St Mary's Hospital (Paddington),False,19fda6b6-c761-4b72-8ca1-fed5ec3b45de
+172,2020-04-23 10:09:13,GB,James Paget Hospital,True,50310
+173,2020-04-23 10:09:43,GB,Southampton General Hospital,False,4afc0cba-d168-4e4c-b3ed-04de50a0a351
+174,2020-04-23 10:10:17,GB,King's College Hospital,False,42540
+175,2020-04-23 10:10:36,GB,St Mary's Hospital (Paddington),False,58772
+176,2020-04-23 10:11:01,GB,Whipps Cross University Hospital,True,800001101
+177,2020-04-23 10:11:52,GB,Basildon University Hospital,False,18456
+178,2020-04-23 10:13:49,GB,Basingstoke and North Hampshire Hospital,True,5291
+179,2020-04-23 10:14:03,GB,Royal Preston Hospital,False,29848
+180,2020-04-23 10:14:10,GB,Chelsea and Westminster,True,3598
+181,2020-04-23 10:14:11,GB,Belfast City Hospital,True,57663
+182,2020-04-23 10:16:30,GB,Queen Alexandra Hospital,True,a2661e1f-d6c1-4f53-bb81-cd59e1af8264
+183,2020-04-23 10:16:30,GB,Queen Alexandra Hospital,True,a2661e1f-d6c1-4f53-bb81-cd59e1af8264
+184,2020-04-23 10:16:42,GB,Dundonald Ulster Hospital,True,2283ea36-1501-4f69-a314-2ab172b6e4fd
+185,2020-04-23 10:16:44,GB,Norfolk and Norwich University Hospital,True,5984
+186,2020-04-23 10:17:10,GB,North Middlesex Hospital,True,62715
+187,2020-04-23 10:18:08,GB,Royal London Hospital,False,15428
+188,2020-04-23 10:18:34,GB,Leicester General Hospital,True,43393
+189,2020-04-23 10:19:54,GB,Homerton University Hospital,True,47719
+190,2020-04-23 10:20:08,GB,Royal Infirmary of Edinburgh,True,f2014e1d-7d25-4de1-b11f-383268b9d5d1
+191,2020-04-23 10:20:41,GB,Chelsea and Westminster,False,4307
+192,2020-04-23 10:20:46,GB,Darent Valley Hospital,True,0a52185b-aa36-485d-8c2b-378adc4765d3
+193,2020-04-23 10:20:47,GB,Manchester Royal Infirmary,True,84412c48-7897-42f4-b9de-6d27d9b1617e
+194,2020-04-23 10:22:01,GB,Queen's Hospital Romford,True,15063
+195,2020-04-23 10:22:07,GB,Charing Cross,True,37006
+196,2020-04-23 10:23:31,GB,James Paget Hospital,True,53449c37-d314-42c7-ae68-5bf7eaa41676
+197,2020-04-23 10:23:46,GB,Norfolk and Norwich University Hospital,False,309a9885-acf0-426b-a000-89590998b838
+198,2020-04-23 10:23:59,GB,Bristol Royal Infirmary,True,03bc9148-f3ef-4dd4-9418-1ab4098a89cd
+199,2020-04-23 10:24:20,GB,Bristol Royal Infirmary Staff,True,35257
+200,2020-04-23 10:25:25,GB,St George's (London),True,bd2ea530-8c04-482c-8923-52e35aceda25
+201,2020-04-23 10:26:13,GB,King's College Hospital,True,5f9f3869-2f1e-42a6-bd27-9d8936d61a98
+202,2020-04-23 10:29:18,GB,Tameside General Hospital,True,b6f936ae-c15b-4078-9a37-222411710838
+203,2020-04-23 10:29:34,GB,Queen Elizabeth University Hospital (Glasgow),True,50930
+204,2020-04-23 10:30:07,ZA,Chris Hani Baragwanath Academic Hospital,False,c68a4ad9-d29a-4ecf-96f3-2977e7e96651
+205,2020-04-23 10:30:30,GB,Barnsley District General Hospital,True,e19ba5f5-8dfd-4edd-a5e9-f326218af1a2
+206,2020-04-23 10:30:51,GB,Royal Cornwall Hospital (treliske),True,a6ec2d6f-136b-4660-ae0a-71eb34e85a2b
+207,2020-04-23 10:32:15,GB,Basildon University Hospital,False,a16d18a0-77fd-4d1e-8964-9503ebecd838
+208,2020-04-23 10:32:53,GB,Southampton General Hospital,True,82147519-f237-40f0-ba69-d1e950e884a7
+209,2020-04-23 10:34:31,GB,Lister Hospital,False,cadc4729-49da-4b66-a878-4eb5baead0dd
+210,2020-04-23 10:36:10,ZA,Robert Mangaliso Sobukwe Hospital,False,6e394cc4-ac7a-44c9-af4f-0eb18b19b57a
+211,2020-04-23 10:36:14,ZA,Groote Schuur Hospital,False,0ca82c97-d991-4e1e-bc68-34bbac336ffb
+212,2020-04-23 10:36:24,GB,Prince Charles Hospital,True,11082
+213,2020-04-23 10:37:33,GB,Queen Elizabeth Hospital (Woolwich),True,32135
+214,2020-04-23 10:37:38,GB,University College London Hospital NHS Trust,True,51454dce-47c2-424c-8673-cc2b6e3e31a4
+215,2020-04-23 10:38:20,GB,Belfast Hospital for Sick Children,True,800010785
+216,2020-04-23 10:38:46,GB,Amersham General Hospital,False,45e82a68-140e-4f5b-b1ea-b8467b151e9d
+217,2020-04-23 10:38:49,GB,Northern General Hospital,True,0a91186e-5b4c-4cb0-a128-0beb55e59e39
+218,2020-04-23 10:38:57,GB,Hillingdon Hospital,True,53269
+219,2020-04-23 10:39:09,GB,Hairmyres Hospital - General Medicine,True,da1431ce-6b99-4471-a949-7884b72a5101
+220,2020-04-23 10:39:13,GB,St James's University Hospital,False,225bea37-f2a0-41b3-b6e1-63fd3c49601f
+221,2020-04-23 10:40:47,GB,Medway Maritime Hospital (rehab-Front Block),False,0ca031f4-20d0-4de4-a32c-d221853e41bc
+222,2020-04-23 10:40:51,GB,East Surrey Hospital,True,ca193002-c1b9-4828-9ef0-278b5184ba87
+223,2020-04-23 10:42:06,GB,Musgrove Park Hospital,True,49300
+224,2020-04-23 10:42:18,GB,James Paget Hospital,True,a5db5c27-9ce4-4eb2-a2e8-4baf652c7075
+225,2020-04-23 10:43:23,GB,King George Hospital,True,4329
+226,2020-04-23 10:43:34,GB,Warrington Hospital,True,ed9bbe76-789b-41b6-9a2c-f8bc1f2f448d
+227,2020-04-23 10:43:47,GB,Colchester General Hospital,False,0117113d-1f2d-401b-9fa7-927842575ff6
+228,2020-04-23 10:43:50,GB,Hammersmith Hospital,True,2549
+229,2020-04-23 10:44:33,GB,Arrowe Park Hospital,True,51678
+230,2020-04-23 10:44:39,GB,Bristol Royal Infirmary,False,74ea1305-a824-44c7-b345-917ffddab0ca
+231,2020-04-23 10:45:24,GB,University College London Hospital NHS Trust,True,52955
+232,2020-04-23 10:45:48,GB,Northwick Park & St Marks Hospital,True,57085
+233,2020-04-23 10:46:28,GB,Torbay District General Hospital,True,38119048-53a0-4374-a605-8f4a3691c160
+234,2020-04-23 10:46:32,GB,Glasgow Royal Infirmary,True,68b164c9-da5e-449e-bd81-286c15a7d817
+235,2020-04-23 10:47:04,GB,Medway Maritime Hospital (rehab-Front Block),True,24175
+236,2020-04-23 10:47:35,GB,North Middlesex Hospital,True,9454
+237,2020-04-23 10:47:54,GB,East Surrey Hospital,False,53262
+238,2020-04-23 10:47:57,GB,East Surrey Hospital,False,53262
+239,2020-04-23 10:48:16,GB,Stepping Hill Hospital,True,08a87445-5df8-428b-9374-d7aa25909bb9
+240,2020-04-23 10:48:27,GB,Macclesfield District General Hospital,True,fe60a08b-9fe9-428b-80d6-8cb29a1052c7
+241,2020-04-23 10:48:44,GB,Manchester Royal Infirmary,False,71312
+242,2020-04-23 10:49:24,GB,Prince Charles Hospital,False,22522
+243,2020-04-23 10:49:43,GB,Royal Free Hospital,True,eaf50fef-91cb-44ae-9594-143631cfc308
+244,2020-04-23 10:50:49,ZA,Paarl Provincial Hospital,False,9d672160-5810-4859-9695-535f30b7275f
+245,2020-04-23 10:52:24,GB,Royal Cornwall Hospital (treliske),True,33f03f0e-4186-4024-aeed-4d7b36266d38
+246,2020-04-23 10:52:24,GB,Alder Hey Children's Hospital,True,4880
+247,2020-04-23 10:52:24,GB,Royal Cornwall Hospital (treliske),True,33f03f0e-4186-4024-aeed-4d7b36266d38
+248,2020-04-23 10:52:25,GB,Bristol Royal Infirmary Staff,True,72566
+249,2020-04-23 10:52:43,GB,Royal Preston Hospital,True,19947
+250,2020-04-23 10:52:46,GB,Northwick Park & St Marks Hospital,False,27241
+251,2020-04-23 10:53:22,GB,Royal Sussex County Hospital,False,54041239-9e24-4790-abfe-17d02db53906
+252,2020-04-23 10:53:54,GB,Queen Alexandra Hospital,True,36739
+253,2020-04-23 10:55:12,GB,Lewisham Hospital,True,9e60db64-0f43-48ff-8119-39a730afabfd
+254,2020-04-23 10:56:21,GB,Bramhall & Shaw Health Medical Group,True,55804
+255,2020-04-23 10:56:27,GB,St George's (London),True,510eefdc-4ec8-4e75-8f27-3ad72cd6e5cc
+256,2020-04-23 10:56:30,ZA,Tygerberg Hospital,True,400010190
+257,2020-04-23 10:56:58,GB,University Hospital Llandough,False,1ac0de8c-240c-40db-b714-4bafe004363d
+258,2020-04-23 10:57:46,GB,Royal Free COVID-19,True,73a7694a-52de-4612-9b55-674dc318ee2c
+259,2020-04-23 10:58:40,GB,Royal Preston Hospital,True,14333
+260,2020-04-23 10:58:54,ZA,Khayelitsha District Hospital,False,a356c6db-27ea-4f4e-9e47-2578bf3d70b3
+261,2020-04-23 10:58:54,ZA,Khayelitsha District Hospital,False,a356c6db-27ea-4f4e-9e47-2578bf3d70b3
+262,2020-04-23 11:00:58,GB,Tunbridge Wells Hospital,False,35727
+263,2020-04-23 11:01:29,GB,St George's (London),True,46837
+264,2020-04-23 11:03:17,ZA,Paarl Provincial Hospital,True,a91b9132-192d-4c56-992f-2e6162cee689
+265,2020-04-23 11:03:44,GB,Ealing Hospital,True,7d73e869-484c-4c5b-865a-8e8c187be1d2
+266,2020-04-23 11:05:20,GB,Doncaster Royal Infirmary,False,29814
+267,2020-04-23 11:05:23,GB,York District General Hospital,True,48505
+268,2020-04-23 11:05:31,GB,Manchester Royal Infirmary,False,cff5a529-827d-47a0-b973-ba07d11bf71a
+269,2020-04-23 11:06:09,GB,Nottingham City Hospital,False,5512
+270,2020-04-23 11:06:15,GB,Royal Victoria Hospital (Belfast),False,a84c04f2-f252-4428-910f-b758f11f8b5a
+271,2020-04-23 11:07:14,GB,Frailty Team,True,51565ec5-7048-4b17-bc9d-38371c766935
+272,2020-04-23 11:07:21,GB,Broomfield Hospital,False,19874
+273,2020-04-23 11:07:39,GB,Cambridge University Hospital,True,fa22cc56-de44-4fd6-a31b-1714e8c1d999
+274,2020-04-23 11:08:51,GB,King's College Hospital,False,40210
+275,2020-04-23 11:10:17,GB,Royal United Hospital,True,12854
+276,2020-04-23 11:11:57,GB,King's College Hospital,False,10484
+277,2020-04-23 11:12:26,GB,York District General Hospital,True,58447596-7385-4efb-bf87-b1cdfe887081
+278,2020-04-23 11:13:48,GB,Kingston Hospital,True,a9f26530-1faa-48d2-ab45-eb3537c11ee3
+279,2020-04-23 11:14:01,GB,City Hospital,True,47739
+280,2020-04-23 11:14:43,GB,Royal Victoria Hospital (Belfast),True,8cb2e9a7-7f6d-47b5-9a62-f180114caf0e
+281,2020-04-23 11:14:51,GB,Whipps Cross University Hospital,True,0cdd2fea-ac7f-4d3e-a974-ab6b705419ad
+282,2020-04-23 11:14:56,GB,Doncaster Royal Infirmary,False,800013077
+283,2020-04-23 11:15:12,GB,Medway Maritime Hospital (rehab-Front Block),False,7d241792-aacc-4271-bffd-51a52ff6de5b
+284,2020-04-23 11:15:19,GB,Royal Devon and Exeter - Emergency Department,True,fea2538b-7bd1-4ab5-a89b-f823d4befb0f
+285,2020-04-23 11:17:25,GB,Northern General Hospital,True,12f2419d-244c-42ee-93ad-d9d5858ddbae
+286,2020-04-23 11:18:27,GB,Poole General Hospital,True,2132074e-1cd1-4d6e-b672-fc4c146d138b
+287,2020-04-23 11:18:56,GB,St Richard's Hospital,True,25230
+288,2020-04-23 11:19:04,GB,Royal United Hospital,True,104c5169-9246-4b31-8f6f-a73f4d9c6bfa
+289,2020-04-23 11:19:28,GB,St Mary's Hospital (Paddington),True,ca9144e8-ff3f-4801-87b0-ac4b4edc7086
+290,2020-04-23 11:20:29,GB,Frimley Park Hospital,True,1541
+291,2020-04-23 11:20:52,GB,North Manchester General Hospital,True,bf5244b8-01c5-4dc5-98df-92752ed36e70
+292,2020-04-23 11:20:53,GB,Guy's & St Thomas' - General Medicine,True,bcb3d398-d78c-4111-aa40-4c48133e2805
+293,2020-04-23 11:22:13,GB,Conquest Hospital,True,13371
+294,2020-04-23 11:22:16,GB,Bristol Royal Infirmary Staff,True,6073
+295,2020-04-23 11:22:18,GB,Royal Free Hospital,True,74178
+296,2020-04-23 11:23:26,GB,King's College Hospital,True,43696
+297,2020-04-23 11:23:37,GB,Ysbyty Gwynedd,True,71446
+298,2020-04-23 11:24:30,GB,St George's (London),True,12225
+299,2020-04-23 11:24:44,GB,Nevill Hall Hospital,False,c406d1f6-ec27-4a6d-b1fa-4de7ba0c9579
+300,2020-04-23 11:24:45,GB,Musgrove Park Hospital,False,fd4c50fd-7850-4e78-9a55-1a3d628fb239
+301,2020-04-23 11:24:54,GB,Belfast City Hospital,True,dfd7da38-fea9-4782-b724-e8e507bdff31
+302,2020-04-23 11:25:41,GB,King's College Hospital,False,730ba042-e604-406c-9186-8641bd581a89
+303,2020-04-23 11:26:02,GB,The Royal Bolton Hospital,True,20323
+304,2020-04-23 11:26:06,GB,Royal Gwent Hospital,True,73180
+305,2020-04-23 11:26:22,GB,North Middlesex Hospital,True,72024
+306,2020-04-23 11:28:24,GB,Royal London Hospital,True,7e65845c-85db-453c-bfda-fa6d3d1e83d6
+307,2020-04-23 11:28:58,GB,Stoke Mandeville Hospital,False,b8bf45b1-7bad-41fc-be0d-36eb3cb6a810
+308,2020-04-23 11:29:01,ZA,Tygerberg Hospital,True,62116
+309,2020-04-23 11:29:06,GB,Royal Albert Edward Infirmary,True,34941
+310,2020-04-23 11:30:35,GB,Ealing Hospital,True,48941
+311,2020-04-23 11:30:35,GB,Ealing Hospital,True,48941
+312,2020-04-23 11:30:38,GB,Southern General Hospital,True,03244b9c-012c-4eef-910a-d4d3fb59b958
+313,2020-04-23 11:31:50,GB,The Whittington Hospital,True,8176
+314,2020-04-23 11:32:00,ZA,Groote Schuur Hospital,False,f8a11080-aa68-442b-93c5-2fa2e5b015a7
+315,2020-04-23 11:32:52,GB,Southampton General Hospital,True,787b5c94-63ee-47b7-acfa-0624704ff346
+316,2020-04-23 11:33:02,GB,St Helier Hospital,False,62865
+317,2020-04-23 11:33:12,GB,Lewisham Hospital,True,1921
+318,2020-04-23 11:33:19,GB,Prince Philip Hospital,False,48990
+319,2020-04-23 11:33:50,GB,Queen Elizabeth Hospital (Woolwich),True,13533
+320,2020-04-23 11:34:21,DE,St George's (London),True,4abdb414-8b9d-4224-9bb4-2bc3c8ecb32c
+321,2020-04-23 11:34:28,GB,Salisbury District Hospital,False,90b403a0-37a6-4662-b439-d6b713be8a69
+322,2020-04-23 11:35:24,GB,Eastbourne District General Hospital,True,9f2f7795-edb5-4363-bc9c-3d99cdfdea8b
+323,2020-04-23 11:35:41,GB,Whiston Hospital,True,32722
+324,2020-04-23 11:38:26,GB,Royal Cornwall Hospital (treliske),True,7a055e6f-a3cb-4638-9722-8844a738cb19
+325,2020-04-23 11:39:22,GB,Southampton General Hospital,True,22b638c3-d909-48cd-abc9-0150d3fa6589
+326,2020-04-23 11:40:03,GB,Homerton University Hospital,True,55004
+327,2020-04-23 11:41:07,GB,Chelsea and Westminster,False,21331
+328,2020-04-23 11:41:20,GB,Good Hope Hospital - General Surgery,False,ebd10046-ac31-4a6c-9e1b-1ffdafc9dff4
+329,2020-04-23 11:41:24,GB,Good Hope Hospital - General Surgery,False,ebd10046-ac31-4a6c-9e1b-1ffdafc9dff4
+330,2020-04-23 11:41:30,GB,Lister Hospital,True,1a9d3762-630b-4682-b540-12b68d63bade
+331,2020-04-23 11:41:32,GB,Manchester Royal Infirmary,True,b6620343-f7bd-4115-8f28-e682c369c210
+332,2020-04-23 11:42:37,GB,Peterborough City Hospital,False,340bf47e-6e86-406c-a297-258ef0dee47c
+333,2020-04-23 11:42:54,GB,Basingstoke and North Hampshire Hospital,True,0b6c9bb1-28c2-4f15-bcdd-34334782ca71
+334,2020-04-23 11:43:45,GB,Cambridge University Hospital,False,9ef941c6-e886-41d2-afcd-a0d41ad38ebe
+335,2020-04-23 11:43:48,GB,King's College Hospital,True,3378
+336,2020-04-23 11:43:50,GB,Kettering General Hospital,False,a82625bf-c76b-4328-8271-2371c7cd486d
+337,2020-04-23 11:44:10,GB,Belfast City Hospital,True,d3653707-99f5-4192-867b-19c8fabddafe
+338,2020-04-23 11:45:22,GB,Royal United Hospital,True,4fabddcc-fc73-41e2-9bd9-bd34ed509481
+339,2020-04-23 11:45:22,GB,Royal United Hospital,True,4fabddcc-fc73-41e2-9bd9-bd34ed509481
+340,2020-04-23 11:45:32,GB,Tunbridge Wells Hospital,False,28851
+341,2020-04-23 11:46:22,GB,New Cross Hospital,False,52684
+342,2020-04-23 11:46:46,GB,East Surrey Hospital,True,26359
+343,2020-04-23 11:46:57,GB,Alder Hey Children's Hospital,True,0df6e201-5106-4881-a3f8-0bb21d70c07f
+344,2020-04-23 11:49:06,GB,Hillingdon Hospital,False,2e2ef488-1d00-4d94-84d1-5ed5f6fee36f
+345,2020-04-23 11:49:12,GB,Arrowe Park Hospital,True,abb7ccd0-e6ff-473e-84d6-1ac7c472e41f
+346,2020-04-23 11:49:23,GB,Pinderfields Hospitals,True,48292
+347,2020-04-23 11:49:42,GB,Lewisham Hospital,True,e170d080-0808-4b54-b632-14b6bfb90d56
+348,2020-04-23 11:51:12,GB,University Hospital of Wales,True,74e78023-28d3-4de0-8cab-30d9b918ed57
+349,2020-04-23 11:52:06,GB,Queen Elizabeth Hospital (Woolwich),True,4d6dd942-4e6f-43da-93cd-043caa5b8916
+350,2020-04-23 11:52:07,GB,Chesterfield Royal Hospital,False,1bf27e48-91ad-439b-af67-6e4d505af058
+351,2020-04-23 11:52:21,GB,Southampton General Hospital,True,87930619-6f68-45b5-a70e-17fc96ef634b
+352,2020-04-23 11:52:40,GB,Poole General Hospital,True,87dfa9ff-d325-420d-a896-6e797550c917
+353,2020-04-23 11:52:53,GB,Queen Alexandra Hospital,True,832a7a72-f5a9-4dcf-a2e2-7166c50de3ab
+354,2020-04-23 11:53:41,GB,Alder Hey Children's Hospital,True,f738b823-8fbd-49c0-8e09-157bdc34605b
+355,2020-04-23 11:53:57,GB,University Hospital Llandough,True,1c3c6b0e-f974-49e4-8e7e-589ce80e3121
+356,2020-04-23 11:55:13,GB,St George's (London),True,66443
+357,2020-04-23 11:55:44,GB,University College London Hospital NHS Trust,False,66889
+358,2020-04-23 11:56:34,GB,Northampton General Hospital ( Acute ),True,65076
+359,2020-04-23 11:57:09,GB,Frimley Park Hospital,False,4c8f1af3-a7e0-4f29-b3c2-4af50e12950d
+360,2020-04-23 11:59:16,GB,Lewisham Hospital,False,17469c04-94a9-443d-9734-5bc059dbe0f9
+361,2020-04-23 11:59:27,GB,Southampton General Hospital,False,18103
+362,2020-04-23 12:01:09,GB,Salford Royal Hospitals NHS Trust,False,62017
+363,2020-04-23 12:01:45,GB,QEUH - ED Team,True,18da63a1-f4ba-4d48-8863-286c4513cb38
+364,2020-04-23 12:01:59,GB,East Surrey Hospital,True,0a2cca23-5bc7-42e1-bf5e-b20306c01ed0
+365,2020-04-23 12:02:59,GB,Queen's Hospital (Burton),False,71fa2a86-bb28-4fb3-b5ba-5ca97e05d09e
+366,2020-04-23 12:03:35,GB,University Hospital of Wales,True,16592
+367,2020-04-23 12:03:48,GB,Kettering General Hospital,True,42757
+368,2020-04-23 12:03:49,GB,Victoria Hospital (Kirkcaldy),True,e4a42553-f7e1-47df-b059-dee4c5c1a06b
+369,2020-04-23 12:05:04,GB,Lister Hospital,True,4193d5a9-41a4-4e0b-8d13-9a0d1a352931
+370,2020-04-23 12:06:56,GB,Birmingham Heartlands Hospital,False,ea87b609-d026-4c38-aca0-de21e65a864f
+371,2020-04-23 12:07:01,GB,Worthing Hospital,True,28409
+372,2020-04-23 12:07:33,GB,Milton Keynes University Hospital NHS Foundation Trust,False,8a3aace9-e0c9-4b58-8369-34905b4ee37b
+373,2020-04-23 12:08:19,GB,Arrowe Park Hospital,True,06dfac07-d50b-4a6b-bbac-8aac2ee7f8f2
+374,2020-04-23 12:08:27,GB,Cambridge University Hospital,True,40522
+375,2020-04-23 12:08:34,GB,Cambridge University Hospital,False,2162
+376,2020-04-23 12:09:01,GB,Salford Royal Hospitals NHS Trust,True,06fafe71-8b5d-4de2-9ef0-e08866cc44b4
+377,2020-04-23 12:09:58,GB,Doncaster Royal Infirmary,True,509f79d9-f7bc-440f-b900-d082ffd159a0
+378,2020-04-23 12:09:59,GB,Royal Surrey County Hospital,False,5d2fd4e0-6545-43dd-a0d0-41c82475edf9
+379,2020-04-23 12:10:05,GB,Royal Hallamshire Hospital,False,7fde3239-c1d7-4330-8273-859849d6eaf1
+380,2020-04-23 12:10:11,GB,Salford Royal Hospitals NHS Trust,True,37726
+381,2020-04-23 12:10:44,GB,Bristol Royal Infirmary,True,813a8dc3-d0da-4823-b29e-f0d76712335c
+382,2020-04-23 12:10:57,GB,Royal Free Hospital,True,56278
+383,2020-04-23 12:13:27,GB,Warrington Hospital,True,202824ab-303d-4b68-8fb6-c59895b57033
+384,2020-04-23 12:13:33,GB,Northern General Hospital,True,800002525
+385,2020-04-23 12:16:03,ZA,Robert Mangaliso Sobukwe Hospital,False,5988
+386,2020-04-23 12:16:51,GB,St Helier Hospital,True,cdba58e8-930e-45eb-b1f5-4e3e23876a33
+387,2020-04-23 12:16:58,GB,Southampton General Hospital,False,52040
+388,2020-04-23 12:17:35,GB,Stepping Hill Hospital,True,47b2bd47-75b3-4999-af92-6cf218f5a3f5
+389,2020-04-23 12:19:19,GB,Tunbridge Wells Hospital,False,16416
+390,2020-04-23 12:19:38,GB,East Surrey Hospital,True,e22363e0-2a75-44e3-bd09-827e340d3905
+391,2020-04-23 12:19:43,GB,Manchester Critical Care,True,28763
+392,2020-04-23 12:19:50,GB,Queen Elizabeth Hospital (Woolwich),True,32283
+393,2020-04-23 12:20:14,GB,University Hospital Coventry/Warwickshire,True,3ae4dee7-b373-4399-b3ee-6dc3691fa630
+394,2020-04-23 12:20:44,GB,University College London Hospital NHS Trust,True,800013098
+395,2020-04-23 12:20:44,GB,More Movicol,False,1649
+396,2020-04-23 12:20:52,GB,Glasgow Royal Infirmary,False,48772
+397,2020-04-23 12:21:08,GB,Queen's Hospital Romford,False,bdec86b2-145e-454f-bb07-4ff69ec39774
+398,2020-04-23 12:21:19,GB,Royal Infirmary of Edinburgh,True,30888
+399,2020-04-23 12:21:36,GB,Royal Hallamshire Hospital,True,d10b4a59-75e0-4ccd-91c7-098a998bf829
+400,2020-04-23 12:22:36,GB,Glasgow Royal Infirmary,True,ac97edaa-f5f5-41d5-91fb-8863ad816593
+401,2020-04-23 12:23:18,GB,Queen Elizabeth The Queen Mother Hospital,False,5e80968f-62e5-4050-a075-be6aedd24d4e
+402,2020-04-23 12:23:37,GB,Tameside General Hospital,False,7c5dfdc5-4468-4bef-be3f-ebf9cba26fc5
+403,2020-04-23 12:24:18,GB,Colchester General Hospital,False,e4e24d94-8cb6-40e7-9eb7-39568ac66608
+404,2020-04-23 12:24:35,GB,The Royal Bolton Hospital,False,50365
+405,2020-04-23 12:24:38,GB,Queen Elizabeth Hospital (Birmingham),True,7418
+406,2020-04-23 12:24:39,GB,The Royal Bolton Hospital,True,50365
+407,2020-04-23 12:25:30,GB,Whiston Hospital,True,e552eec2-1a64-41d1-a025-2a14373daff6
+408,2020-04-23 12:25:34,GB,Queen Elizabeth Hospital (Woolwich),False,051a2894-ac22-4edf-9d37-6ac1b551da46
+409,2020-04-23 12:25:43,GB,Royal Devon and Exeter Hospital (wonford),True,54454
+410,2020-04-23 12:25:43,GB,Warrington Hospital,True,6e521c70-d060-4812-9d39-d9e31e134f77
+411,2020-04-23 12:25:47,GB,Watford General Hospital,True,52b29c9b-ef70-4d01-86cc-3be0922695b2
+412,2020-04-23 12:27:03,GB,Barnet Hospital,False,63411
+413,2020-04-23 12:27:14,GB,Victoria Hospital (Kirkcaldy),True,64870
+414,2020-04-23 12:27:32,GB,Daisy Hill Hospital,True,3c4f051c-0285-422d-96fa-b1456b008802
+415,2020-04-23 12:28:27,GB,Queen Elizabeth The Queen Mother Hospital,False,09c9f6a6-cb86-4e55-8d25-b501c70db501
+416,2020-04-23 12:28:40,GB,Queen Elizabeth The Queen Mother Hospital,False,09c9f6a6-cb86-4e55-8d25-b501c70db501
+417,2020-04-23 12:29:23,GB,St George's (London),True,800013102
+418,2020-04-23 12:30:12,GB,North Middlesex Hospital,False,54639436-88a7-47a7-b229-f464ae93ab33
+419,2020-04-23 12:30:15,GB,Royal Blackburn,False,8941f830-c125-4408-964b-d6ecc0b1f542
+420,2020-04-23 12:30:24,GB,Musgrove Park Hospital,True,16122
+421,2020-04-23 12:30:56,GB,Royal Berkshire Hospital,True,25523
+422,2020-04-23 12:31:20,GB,St George's (London),True,5f05cc82-c69e-4a5b-8106-a61a9d385054
+423,2020-04-23 12:31:26,GB,Queen Elizabeth University Hospital (Glasgow),True,c8293f6e-4bf8-49b7-962d-b3b31cef9c0c
+424,2020-04-23 12:32:33,GB,Bristol Royal Infirmary Staff,True,36189
+425,2020-04-23 12:32:37,GB,York District General Hospital,True,800013103
+426,2020-04-23 12:32:54,GB,Leeds General Infirmary,True,57620
+427,2020-04-23 12:33:18,GB,Charing Cross,True,bb84aea5-865c-446c-9755-82d02519f02e
+428,2020-04-23 12:33:20,GB,Tameside General Hospital,False,5e43966b-ffe2-48ba-bfef-eaa78443567d
+429,2020-04-23 12:33:33,GB,Royal Blackburn,True,a6d28ebe-5127-4e2c-b4b0-72caf4dc7cf2
+430,2020-04-23 12:33:39,GB,Homerton University Hospital,True,18444
+431,2020-04-23 12:34:57,GB,Medway Maritime Hospital (rehab-Front Block),True,58447
+432,2020-04-23 12:35:15,GB,Royal Sussex County Hospital,True,55306
+433,2020-04-23 12:36:22,GB,Queen Elizabeth University Hospital (Glasgow),True,261759e9-d6c3-453c-a8a2-4e1779440cb7
+434,2020-04-23 12:36:46,GB,Kingston Hospital,True,4372
+435,2020-04-23 12:37:22,GB,Edinburgh Western General,True,36a07ab4-22cf-46d9-a8d8-7d0ad0612f53
+436,2020-04-23 12:37:24,GB,University Hospital of Wales,True,dbe382ec-be9d-4a37-8494-05cc9ac305a6
+437,2020-04-23 12:38:02,GB,Bradford Royal Infirmary,False,10fc28cb-8d2f-4ee7-b738-cef77d8a895d
+438,2020-04-23 12:38:41,GB,Torbay District General Hospital,True,46462
+439,2020-04-23 12:41:02,GB,St Thomas' Hospital,True,00cce40a-2457-4498-99e9-92db58b69650
+440,2020-04-23 12:41:36,ZA,Livingstone Hospital,False,b134d298-c55c-4835-b659-563a6298bf0a
+441,2020-04-23 12:42:23,GB,Darent Valley Hospital,False,eacf6322-df71-4027-b1d5-176bc36789af
+442,2020-04-23 12:42:31,GB,Medway Maritime Hospital (rehab-Front Block),True,7618
+443,2020-04-23 12:43:01,GB,St George's (London),True,54734
+444,2020-04-23 12:43:33,GB,Kingston Hospital,True,2579
+445,2020-04-23 12:43:43,GB,Edinburgh Western General,True,416aafe2-73eb-454f-95f6-cad9a2569bca
+446,2020-04-23 12:44:05,GB,Queen's Hospital Romford,True,2f1d22cf-a369-4c61-b9de-241f3d0113a0
+447,2020-04-23 12:44:28,GB,Aintree Hospital,True,35090
+448,2020-04-23 12:44:37,GB,St Peter's Hospital,False,57503
+449,2020-04-23 12:45:08,GB,University Hospital of Wales,False,26618
+450,2020-04-23 12:46:52,GB,Southend Hospital,True,50759
+451,2020-04-23 12:47:03,GB,Bristol Royal Infirmary Staff,True,35249
+452,2020-04-23 12:47:13,GB,Queen Alexandra Hospital,True,d2bf9a46-897a-4c57-9757-83aae1ecc752
+453,2020-04-23 12:47:13,GB,Royal Free COVID-19,True,3c3ed49c-802f-49f3-bca9-7f6f68111529
+454,2020-04-23 12:47:36,GB,Poole General Hospital,True,cd0ff806-e401-402d-a559-fc375a56f3db
+455,2020-04-23 12:48:35,GB,Great Ormond Street Hospital NHS Trust,True,800013113
+456,2020-04-23 12:48:44,GB,Queen Alexandra Hospital,True,1da530c5-92fe-42bc-8d91-a4bbce8e588a
+457,2020-04-23 12:48:53,GB,Warwick Hospital,True,800013116
+458,2020-04-23 12:49:06,GB,Lister Hospital,True,6cb828b5-c841-4ece-97da-fc482bc4f614
+459,2020-04-23 12:49:07,GB,Whiston Hospital,True,db50710d-cc70-47c8-b28b-fd5324c905d7
+460,2020-04-23 12:49:56,GB,Princess Royal University Hospital (Kent),True,87e3168a-79fc-429b-b621-c6241589c121
+461,2020-04-23 12:50:00,GB,Royal Gwent Hospital,True,51873
+462,2020-04-23 12:50:42,GB,St Thomas' Hospital,False,a0fa2942-0b45-47de-ac3d-0cc4f5e70c92
+463,2020-04-23 12:50:47,GB,University College London Hospital NHS Trust,True,21821
+464,2020-04-23 12:51:27,GB,Hull Royal Infirmary,True,3921a99c-4990-4636-92e6-1e82936b8da5
+465,2020-04-23 12:51:33,GB,St Helier Hospital,False,6260
+466,2020-04-23 12:51:52,GB,St James's University Hospital,True,40149
+467,2020-04-23 12:52:03,GB,Southampton General Hospital,False,73060
+468,2020-04-23 12:52:04,GB,Gloucester Royal Hospital,True,800012186
+469,2020-04-23 12:52:44,GB,Queen's Hospital Romford,True,48907
+470,2020-04-23 12:53:03,GB,North Manchester General Hospital,False,58430
+471,2020-04-23 12:53:04,GB,Whipps Cross University Hospital,True,39c66abf-9be6-482e-b4e1-f162f42c3db8
+472,2020-04-23 12:53:15,GB,Wythenshawe Hospital,True,54351
+473,2020-04-23 12:53:15,GB,Wythenshawe Hospital,True,54351
+474,2020-04-23 12:53:21,GB,Southampton General Hospital,True,11590
+475,2020-04-23 12:53:23,GB,Cleft,True,15153
+476,2020-04-23 12:53:53,GB,Great Ormond Street Hospital NHS Trust,True,703074e9-ec42-4852-92b3-a2fcc63a4e1b
+477,2020-04-23 12:54:21,GB,Royal London Hospital,False,ac3b0a17-59e4-49ca-bf6a-a29e75f491d0
+478,2020-04-23 12:55:10,GB,John Radcliffe Hospital,True,65794
+479,2020-04-23 12:55:19,GB,Royal Victoria Hospital (Belfast),True,a200fc09-8ae8-4d79-b6d3-8093b1282f85
+480,2020-04-23 12:56:10,GB,Milton Keynes - MAU,True,c153ecfc-c07e-4857-99c8-1c3b1782a34b
+481,2020-04-23 12:56:22,GB,Kettering General Hospital,False,30e28b15-840b-42ca-a4ff-2ec7a2ecbd53
+482,2020-04-23 12:57:03,GB,Darent Valley Hospital,True,d94f90f8-d21f-489c-b6eb-3bf0ee730f39
+483,2020-04-23 12:57:03,GB,Darent Valley Hospital,True,d94f90f8-d21f-489c-b6eb-3bf0ee730f39
+484,2020-04-23 12:57:05,GB,East Surrey Hospital,True,47841
+485,2020-04-23 12:58:38,GB,Woodend General Hospital,True,f9062ce0-3e65-42e9-9b1d-2c9cf5672e39
+486,2020-04-23 12:58:42,GB,John Radcliffe Hospital,True,39799
+487,2020-04-23 12:58:45,GB,Kingston Hospital,True,4558
+488,2020-04-23 12:59:47,GB,Alder Hey Children's Hospital,True,275f0944-669e-4040-a322-d8e53af9b43c
+489,2020-04-23 13:00:29,GB,Leicester Royal Infirmary,False,067878d5-ef15-409c-b778-1385f1ff09e3
+490,2020-04-23 13:00:29,GB,Leicester Royal Infirmary,False,067878d5-ef15-409c-b778-1385f1ff09e3
+491,2020-04-23 13:00:42,GB,Northern General Hospital,True,d43023c2-be05-4585-93d0-ae0ed121f41f
+492,2020-04-23 13:00:57,GB,RUH Anaesthetic Department,True,6026
+493,2020-04-23 13:01:54,GB,Royal Free Hospital,True,309ee583-fc2f-42b2-9439-6fbcd2d2f6d5
+494,2020-04-23 13:02:06,GB,Manchester Royal Infirmary,True,800013119
+495,2020-04-23 13:02:14,GB,York District General Hospital,True,40307
+496,2020-04-23 13:05:34,GB,Cambridge University Hospital,True,97305579-256c-484b-ae10-97e10df8188f
+497,2020-04-23 13:05:47,GB,Hull Royal Infirmary,False,49550
+498,2020-04-23 13:07:33,GB,Queen Elizabeth Hospital (Birmingham),False,a044ec67-f001-4c17-a673-8ff2a7f1a843
+499,2020-04-23 13:09:10,GB,West Middlesex University Hospital,True,1940
+500,2020-04-23 13:09:27,GB,Princess Royal University Hospital (Kent),True,71425
+501,2020-04-23 13:10:05,GB,Glasgow Royal Infirmary,True,1c1922aa-5a31-4c53-97d0-762e212ca590
+502,2020-04-23 13:11:11,GB,Royal Gwent Hospital,True,4df3ade9-d330-41ce-b292-83eeee7bab7b
+503,2020-04-23 13:11:18,GB,University College London Hospital NHS Trust,True,800013123
+504,2020-04-23 13:11:38,GB,Leicester Royal Infirmary,True,53721
+505,2020-04-23 13:11:47,GB,Northwick Park & St Marks Hospital,True,25390
+506,2020-04-23 13:13:57,AU,Royal Hobart Hospital,True,4000
+507,2020-04-23 13:13:57,AU,Royal Hobart Hospital,True,4000
+508,2020-04-23 13:14:16,GB,Great Ormond Street Hospital NHS Trust,True,c7813ff5-08fe-4de8-ae5e-ba0206b2ad8a
+509,2020-04-23 13:15:33,GB,Imperial Renal,True,1635
+510,2020-04-23 13:15:59,GB,Warwick Hospital,True,e0eba8e5-610e-4f4d-a6e1-9fb29c937043
+511,2020-04-23 13:18:24,GB,Royal Infirmary of Edinburgh,False,832a880f-a53a-40a2-ab80-500bd27e42f6
+512,2020-04-23 13:18:42,GB,Gloucester Royal Hospital,True,19055
+513,2020-04-23 13:19:03,GB,University Hospital Of North Durham,True,d8013a16-e57c-48d0-848e-79715091a64b
+514,2020-04-23 13:19:42,GB,Leicester General Hospital,True,1161
+515,2020-04-23 13:20:10,GB,St Mary's Hospital (Newport),True,64472
+516,2020-04-23 13:21:38,GB,Royal Free Hospital,True,94e2a9bb-2dfe-4e8a-8ab3-0d885281562a
+517,2020-04-23 13:22:47,GB,St George's (London),False,64127
+518,2020-04-23 13:22:57,GB,St Mary's Hospital (Paddington),True,32aa1b5d-7fbc-43b8-9987-6398b6a8f609
+519,2020-04-23 13:23:10,GB,Queen Elizabeth University Hospital (Glasgow),True,d2ae98ec-5da4-4fd0-acbb-30ce28327dd9
+520,2020-04-23 13:23:55,GB,Royal United Hospital,True,800013093
+521,2020-04-23 13:24:00,GB,Mater Hospital COVID info,True,37359
+522,2020-04-23 13:25:01,ZA,Red Cross War Memorial Children's Hospital,True,69733
+523,2020-04-23 13:25:11,GB,University Hospital Coventry/Warwickshire,True,53609
+524,2020-04-23 13:26:48,GB,Royal Sussex County Hospital,True,762977a7-2a23-4ae4-a91c-42082e9ad89c
+525,2020-04-23 13:27:03,GB,Warrington Hospital,True,f0a1203c-6ec6-4fb3-9515-e2f422ad4d4c
+526,2020-04-23 13:27:42,GB,Royal London Hospital - Neonates,True,e25849c7-fa12-4599-9b3c-e5e42807ed5c
+527,2020-04-23 13:27:51,GB,Basildon University Hospital,False,25575
+528,2020-04-23 13:28:05,GB,Leicester Royal Infirmary,False,d3538541-3d58-4c3b-b2c9-31a664579343
+529,2020-04-23 13:29:01,GB,HPB,True,6418
+530,2020-04-23 13:29:42,GB,King's College Hospital,True,48f2596f-2071-44bc-ab2a-6dcbc05279ea
+531,2020-04-23 13:29:45,GB,Royal Albert Edward Infirmary,False,5753
+532,2020-04-23 13:29:45,GB,King's College Hospital,True,48f2596f-2071-44bc-ab2a-6dcbc05279ea
+533,2020-04-23 13:31:15,GB,Glangwili General Hospital,True,112656fb-dec7-4a37-b7df-ac08bba51eb5
+534,2020-04-23 13:32:21,GB,Queen's Hospital Romford,True,69333
+535,2020-04-23 13:33:41,GB,University Hospital of Wales,True,3abe8e58-0b1a-4268-a26d-9b61c1a2d16e
+536,2020-04-23 13:33:41,GB,University Hospital of Wales,True,3abe8e58-0b1a-4268-a26d-9b61c1a2d16e
+537,2020-04-23 13:33:42,GB,Southampton General Hospital,True,d022e185-5b19-493d-a47c-4dd2989045eb
+538,2020-04-23 13:34:12,GB,John Radcliffe Hospital,True,2221
+539,2020-04-23 13:34:15,GB,Princess Alexandra Hospital,False,96b6c2c5-3f3e-4ebf-a464-d78e0b73dc5e
+540,2020-04-23 13:34:30,GB,West Middlesex University Hospital,True,28491
+541,2020-04-23 13:34:35,GB,St James's University Hospital,True,bd101f1b-ad19-4c26-8b95-6dcadd084915
+542,2020-04-23 13:35:02,GB,Manchester Royal Infirmary,False,f5446e07-dcd4-4b11-afdc-25171a38a776
+543,2020-04-23 13:35:30,GB,Bristol Royal Infirmary,True,6741
+544,2020-04-23 13:36:07,GB,Queen Elizabeth University Hospital (Glasgow),False,d9f54145-38e8-4893-b4e6-e48654f67af2
+545,2020-04-23 13:36:39,GB,Royal Free Hospital,True,71714
+546,2020-04-23 13:37:14,GB,St Mary's Hospital (Paddington),True,28174
+547,2020-04-23 13:37:16,GB,Aintree Hospital,True,3d8b5498-ebe2-470b-b404-64605a80c05e
+548,2020-04-23 13:37:50,GB,St Mary's Hospital (Paddington),True,10197
+549,2020-04-23 13:37:54,GB,Royal Hospital for Children,False,31945
+550,2020-04-23 13:39:53,GB,North Middlesex Hospital,True,23699
+551,2020-04-23 13:39:55,GB,Russells Hall Hospital,True,20968
+552,2020-04-23 13:41:31,GB,Lewisham Hospital,True,69307
+553,2020-04-23 13:42:00,GB,Royal Stoke Hospital,False,491cd6f8-46e6-41ca-99db-639b0eed2d61
+554,2020-04-23 13:42:53,GB,Royal Lancaster Infirmary,False,43566
+555,2020-04-23 13:45:35,GB,Great Ormond Street Hospital NHS Trust,True,29311
+556,2020-04-23 13:47:34,GB,Hywel Dda Paediatrics,True,18235
+557,2020-04-23 13:48:39,GB,Queen Elizabeth Hospital (Birmingham),True,6254aa81-b61d-436b-ba60-43df2aea7ee6
+558,2020-04-23 13:48:42,GB,Basildon University Hospital,False,6211
+559,2020-04-23 13:50:22,GB,Kingston Hospital,True,14538
+560,2020-04-23 13:50:55,GB,Lister Hospital,True,46820
+561,2020-04-23 13:50:57,GB,East Surrey Hospital,False,4556
+562,2020-04-23 13:51:13,GB,Royal Victoria Hospital,True,15003
+563,2020-04-23 13:51:15,GB,Antrim Area Hospital,True,2b24956f-2504-495d-a74e-80db8f96a771
+564,2020-04-23 13:51:28,GB,PFI recovery- ITU extension,True,a8480e95-cf39-4a2a-abeb-efda17288060
+565,2020-04-23 13:51:28,GB,PFI recovery- ITU extension,True,a8480e95-cf39-4a2a-abeb-efda17288060
+566,2020-04-23 13:52:25,GB,Trafford General Hospital,True,c445e1d3-89d3-4e2a-a5ad-288900692986
+567,2020-04-23 13:52:50,GB,Dorset County Hospital,True,82aefd2d-0cff-47e3-b51f-ac2e97b40e75
+568,2020-04-23 13:54:05,GB,Princess Alexandra Hospital,True,2045
+569,2020-04-23 13:54:32,GB,Princess Alexandra Hospital,True,8c2a54d5-2761-4869-9424-bb12c60cdcb2
+570,2020-04-23 13:55:13,GB,West Middlesex University Hospital,False,8576c5cb-2234-4683-8de8-474b199bac76
+571,2020-04-23 13:57:15,GB,Edinburgh Western General,True,55001
+572,2020-04-23 13:58:04,GB,Royal Brompton Hospital,True,3552
+573,2020-04-23 13:58:21,GB,St George's (London),False,8adf684f-517f-4fc4-85ff-cfda96fabfd3
+574,2020-04-23 13:58:28,GB,St George's (London),False,8adf684f-517f-4fc4-85ff-cfda96fabfd3
+575,2020-04-23 13:59:24,GB,Harefield Hospital,True,1cbb9a9d-8d13-4104-9414-deb189812a95
+576,2020-04-23 13:59:51,GB,PFI Recovery - ITU extension,False,d94f69df-e779-48a1-902d-b0e5e0d686cb
+577,2020-04-23 14:00:54,ZA,Tygerberg Hospital,False,b8b8c1c9-6577-4f4e-8b9a-f7cbff29ff9a
+578,2020-04-23 14:02:22,GB,North Middlesex Hospital,True,3353
+579,2020-04-23 14:03:42,GB,St Helier Hospital,True,18296
+580,2020-04-23 14:04:11,GB,Northern General Hospital,True,7ea1c545-fda8-418c-83b7-c551f897f217
+581,2020-04-23 14:04:32,GB,John Radcliffe Hospital,True,800013135
+582,2020-04-23 14:05:29,GB,Royal London Hospital,True,19516
+583,2020-04-23 14:06:02,GB,Lister Hospital,True,71958
+584,2020-04-23 14:07:03,GB,St Mary's Hospital (Paddington),False,58023
+585,2020-04-23 14:07:08,GB,Ipswich Hospital,False,73022
+586,2020-04-23 14:09:49,GB,Wexham Park Hospital,True,70115
+587,2020-04-23 14:10:22,GB,Royal Sussex County Hospital,False,7d67901e-8baf-4d60-acce-f4aa2c6d3fdb
+588,2020-04-23 14:11:05,GB,Glasgow Royal Infirmary,True,980af31b-14c1-4e92-8071-3cc1d04aa3fc
+589,2020-04-23 14:12:19,GB,Royal Victoria Hospital (Belfast),True,3908
+590,2020-04-23 14:17:25,GB,Lister Hospital,True,22880
+591,2020-04-23 14:19:27,GB,Darent Valley Hospital,False,38970
+592,2020-04-23 14:19:29,GB,Royal Devon and Exeter Hospital (wonford),True,54362
+593,2020-04-23 14:20:29,GB,James Paget Hospital,True,486f13ea-bdbd-4a62-8021-db3e4f3b31fe
+594,2020-04-23 14:22:06,GB,City Hospital,True,47131
+595,2020-04-23 14:22:46,GB,Rheumatology,False,d042c5a6-29e5-4f22-aa53-fa8f7e8a1884
+596,2020-04-23 14:22:46,GB,Rheumatology,False,d042c5a6-29e5-4f22-aa53-fa8f7e8a1884
+597,2020-04-23 14:22:52,GB,Southampton General Hospital,True,36404
+598,2020-04-23 14:24:41,GB,Bedford Hospital,True,8533f35a-efee-414b-bb12-ff299bbcee28
+599,2020-04-23 14:25:04,MT,Mater Dei Hospital (Malta),True,400010401
+600,2020-04-23 14:25:15,GB,Christie Hospital NHS Trust,True,f7c2e09d-d2bb-458b-abf5-98d30dbc9300
+601,2020-04-23 14:25:15,GB,James Paget Hospital,True,ffe42a2f-31b9-4fab-bf09-f8dcf8a4a6d4
+602,2020-04-23 14:25:45,GB,King's College Hospital,False,6328161e-4507-4636-a73d-09d6a1ad4d66
+603,2020-04-23 14:27:37,GB,Leeds General Infirmary,False,53932
+604,2020-04-23 14:28:36,GB,Acute Medicine Team,True,966dfbdf-2110-4e3c-82fb-f53bf97faee0
+605,2020-04-23 14:29:02,GB,Alder Hey Children's Hospital,True,b5c181aa-7adc-453d-9907-57f5918c549b
+606,2020-04-23 14:29:19,GB,Cross Lane Hospital,True,7d997e99-2c9d-4ed8-9d9f-86fe2c8d3703
+607,2020-04-23 14:29:41,GB,University Hospital Crosshouse,True,e515ec27-a1d6-4faa-b98a-93b01503f092
+608,2020-04-23 14:29:47,GB,University Hospital Crosshouse,True,e515ec27-a1d6-4faa-b98a-93b01503f092
+609,2020-04-23 14:30:10,GB,Barnet Hospital,True,5938cc99-fbea-4379-a287-7f8ebf85429a
+610,2020-04-23 14:30:57,GB,Musgrove Park Hospital,False,49336
+611,2020-04-23 14:31:35,GB,Countess Of Chester Hospital,True,e08832e4-433a-4874-9b49-53a5a577f6a4
+612,2020-04-23 14:31:50,GB,Whiston Hospital,True,dc4999f2-2f40-4613-938a-c4ee0cba564a
+613,2020-04-23 14:34:12,GB,RVH fractures,True,8e061d62-7bb9-46f1-9043-d889bdd06da2
+614,2020-04-23 14:34:35,MT,Mater Dei Hospital (Malta),True,9174d0de-c398-4682-8fd9-7b1aceba3897
+615,2020-04-23 14:34:42,GB,Central Middlesex Hospital,False,50740
+616,2020-04-23 14:35:42,MT,Mater Dei Hospital (Malta),False,3525
+617,2020-04-23 14:36:32,GB,Chelsea and Westminster,True,47918
+618,2020-04-23 14:36:41,GB,Cheltenham General Hospital,True,f33e32d2-9e00-4932-b666-c4d9b3ee0b6e
+619,2020-04-23 14:38:19,GB,Chelsea and Westminster,True,37808
+620,2020-04-23 14:38:40,GB,Lister Hospital,False,a66f772b-e5be-4127-b52a-f8ad22e86bb1
+621,2020-04-23 14:38:43,GB,Hammersmith Hospital,True,51718
+622,2020-04-23 14:39:40,GB,Queen Marys Hospital (Roehampton),False,c0e8989b-ae84-4288-9140-93f319df12e7
+623,2020-04-23 14:40:24,US,NY - HHC Jacobi Hospital,True,50551
+624,2020-04-23 14:40:58,GB,Cambridge University Hospital,True,12913
+625,2020-04-23 14:41:09,GB,Chelsea and Westminster,True,4924
+626,2020-04-23 14:42:49,GB,North Middlesex Hospital,False,3049
+627,2020-04-23 14:44:45,GB,Royal Gwent Hospital,True,fa485b33-7590-4f55-85ed-df6701676fd9
+628,2020-04-23 14:45:26,GB,The Royal Bolton Hospital,True,e8e21f7e-c0f5-49f8-834c-1320de5d60d3
+629,2020-04-23 14:45:48,GB,St George's (London),True,601ab644-7605-443e-884c-85d081245c88
+630,2020-04-23 14:46:01,GB,Warwick Hospital,True,94798
+631,2020-04-23 14:46:44,GB,Royal Derby Hospital,True,39847
+632,2020-04-23 14:46:46,GB,Leeds General Infirmary,False,61997
+633,2020-04-23 14:48:49,GB,Kettering General Hospital,True,49295
+634,2020-04-23 14:49:00,GB,Royal Berkshire Hospital,True,69359
+635,2020-04-23 14:50:51,GB,Medway Maritime Hospital (rehab-Front Block),True,27502
+636,2020-04-23 14:52:51,GB,St Mary's Hospital (Paddington),True,53473
+637,2020-04-23 14:52:59,GB,Princess Royal University Hospital (Kent),False,eed4187e-abf3-4d4b-9572-a25eb11fd1c5
+638,2020-04-23 14:54:09,GB,St Helier Hospital,True,3408
+639,2020-04-23 14:55:40,GB,Worthing Hospital,True,116560
+640,2020-04-23 14:56:35,GB,Royal Infirmary of Edinburgh,True,63805
+641,2020-04-23 14:56:59,GB,Royal Albert Edward Infirmary,True,5099
+642,2020-04-23 14:57:27,GB,Churchill Hospital,True,51123
+643,2020-04-23 14:57:42,GB,Cambridge University Hospital,False,70752
+644,2020-04-23 14:57:48,GB,Warwick Hospital,True,5c58275a-cff4-483a-9358-82e3f9f82a39
+645,2020-04-23 14:57:51,GB,Sheffield Children's Hospital,True,2099
+646,2020-04-23 14:59:13,GB,Chesterfield Royal Hospital,True,54652
+647,2020-04-23 14:59:22,GB,Medway Maritime Hospital (rehab-Front Block),True,8117
+648,2020-04-23 14:59:27,GB,Whipps Cross University Hospital,True,31172
+649,2020-04-23 14:59:27,GB,Whipps Cross University Hospital,True,31172
+650,2020-04-23 15:00:42,GB,Queen Elizabeth Hospital (Birmingham),True,25006
+651,2020-04-23 15:01:11,GB,Medway Maritime Hospital (rehab-Front Block),True,62127
+652,2020-04-23 15:01:44,GB,Barnet Hospital - General Medicine,True,10289
+653,2020-04-23 15:02:10,GB,Sandwell General Hospital,True,53068
+654,2020-04-23 15:03:08,GB,Lagan Valley Hospital,True,14206
+655,2020-04-23 15:03:17,GB,Royal Surrey County Hospital,True,19243
+656,2020-04-23 15:04:54,GB,Bristol Royal Infirmary,True,058d9b72-09c3-449d-9c0a-0d4c911c6a18
+657,2020-04-23 15:05:02,GB,Queen Elizabeth University Hospital (Glasgow),False,800004410
+658,2020-04-23 15:05:17,GB,Pilgrim Hospital,False,c8b8de7b-0d01-479c-a6e2-9332120f2eb6
+659,2020-04-23 15:05:17,GB,Scarborough General Hospital,True,56419
+660,2020-04-23 15:05:53,GB,University Hospital of Wales,True,69202
+661,2020-04-23 15:05:58,GB,Dundonald Ulster Hospital,False,35148
+662,2020-04-23 15:06:21,GB,Royal Devon and Exeter - Emergency Department,True,0e2bce81-3334-46de-b008-caac54f5b671
+663,2020-04-23 15:06:54,GB,Northern General Hospital,True,12413b28-b405-4c57-898f-eec5828001c7
+664,2020-04-23 15:08:12,GB,Cambridge University Hospital,True,3a1cb6e4-d398-4892-bc9b-d3c220b67452
+665,2020-04-23 15:08:44,GB,St Thomas' Hospital,True,f2d09011-0e4f-4ef6-a91f-59cfbf288d6b
+666,2020-04-23 15:09:16,GB,Bronglais General Hospital,True,295999c9-4a7b-49b2-aba2-d4e248b22fd8
+667,2020-04-23 15:09:41,GB,George Eliot Hospital - Acute Services,True,a8719a98-a694-4e34-906b-77e631d37246
+668,2020-04-23 15:10:37,GB,Newham General Hospital,False,cbbbf5ea-c408-43fa-8a02-45efccb7cdbe
+669,2020-04-23 15:10:38,GB,Whipps Cross University Hospital,True,22316
+670,2020-04-23 15:11:15,GB,University College London Hospital NHS Trust,True,e28884bd-77cc-4df2-be10-0f95b608853f
+671,2020-04-23 15:11:42,GB,North Middlesex Hospital,True,b4d0d94e-9443-4b73-b8e3-70f3ae0fd357
+672,2020-04-23 15:12:17,GB,Royal Infirmary of Edinburgh,True,1616
+673,2020-04-23 15:13:55,GB,Edinburgh Western General,True,59016
+674,2020-04-23 15:14:40,GB,St Thomas' Hospital,True,800013154
+675,2020-04-23 15:14:52,GB,Northwick Park & St Marks Hospital,True,57506
+676,2020-04-23 15:15:00,GB,Barnsley District General Hospital,True,44611
+677,2020-04-23 15:15:16,GB,Tunbridge Wells Hospital,True,26349
+678,2020-04-23 15:15:22,GB,Churchill Hospital,True,42796
+679,2020-04-23 15:17:10,ZA,Tygerberg Hospital,False,7db490c7-4a42-4745-964b-faf3df94c2e3
+680,2020-04-23 15:17:19,GB,Cambridge University Hospital,True,02766eb5-8299-4f2a-a1a9-15d9927f6401
+681,2020-04-23 15:17:26,GB,St George's (London),True,30295e4a-da01-47dc-9624-e0d5fae1ded6
+682,2020-04-23 15:17:37,US,NY - HHC Jacobi Hospital,True,cea2730c-0615-4583-8461-e0577da85040
+683,2020-04-23 15:17:40,GB,St Thomas' Hospital,True,21038
+684,2020-04-23 15:18:36,GB,Withybush General Hospital,False,43e83fa4-21b4-4eac-be77-0465b24c58fe
+685,2020-04-23 15:18:50,GB,Cambridge University Hospital,True,49210
+686,2020-04-23 15:18:51,US,NY - Long Island Jewish,True,28415
+687,2020-04-23 15:20:28,GB,Tunbridge Wells Hospital,True,11957
+688,2020-04-23 15:20:50,GB,Royal Surrey County Hospital,True,1436
+689,2020-04-23 15:22:46,GB,Dundonald Ulster Hospital,True,2304
+690,2020-04-23 15:23:37,GB,King George Hospital,True,db152e99-4bf0-4cff-840e-f9ba6de457bf
+691,2020-04-23 15:23:48,GB,University Hospital of Wales,True,adabd8d4-50cd-4291-88e4-4a88d188745c
+692,2020-04-23 15:23:48,GB,Bradford Royal Infirmary,True,d7b14fca-8975-4d61-998e-d5d97a945b70
+693,2020-04-23 15:25:34,GB,Alder Hey Children's Hospital,False,800008287
+694,2020-04-23 15:25:34,GB,North Manchester General Hospital,False,52322
+695,2020-04-23 15:27:18,GB,St Thomas' Hospital,True,53906
+696,2020-04-23 15:27:29,GB,Royal Gwent Hospital,True,31293
+697,2020-04-23 15:27:54,GB,Broomfield Hospital,True,91474e36-9fcd-4ebc-bb41-d8d9228f4601
+698,2020-04-23 15:28:44,GB,Inverclyde Royal Hospital,True,f6a168b7-d079-4c06-aed7-8a772677c543
+699,2020-04-23 15:30:33,GB,Whipps Cross University Hospital,True,53793
+700,2020-04-23 15:33:20,GB,Glangwili General Hospital,False,660b6086-761c-4f7f-8475-84b970f6434a
+701,2020-04-23 15:33:27,GB,Darlington Memorial Hospital,True,e9edc36b-f557-4a97-bbe9-c91e11c61d62
+702,2020-04-23 15:33:43,GB,St Thomas' Hospital,True,58682996-ef1b-42b2-98ee-0dc2c897a866
+703,2020-04-23 15:33:58,GB,Royal Berkshire Hospital,True,26467
+704,2020-04-23 15:34:28,GB,St Thomas' Hospital,True,60730
+705,2020-04-23 15:36:24,GB,St Thomas' Hospital,True,669c0536-e7e6-4162-87fe-3a6eb10749a3
+706,2020-04-23 15:37:02,GB,University Hospital of Wales,True,bfdaf38a-b48b-46a1-934f-0be1e4f40561
+707,2020-04-23 15:37:04,GB,Lister Hospital,True,39520
+708,2020-04-23 15:38:41,GB,Southampton General Hospital,True,800013160
+709,2020-04-23 15:38:49,GB,University College London Hospital NHS Trust,False,333f0be8-715d-4a1d-821a-d6576035bd07
+710,2020-04-23 15:39:11,GB,Milton Keynes University Hospital NHS Foundation Trust,True,fa85cdf9-7bb4-41c1-adac-20942fe56111
+711,2020-04-23 15:40:35,GB,Horton General Hospital,True,4719261c-3730-4973-9349-b0bea2f2c05a
+712,2020-04-23 15:40:53,GB,University Hospital Aintree,True,56706
+713,2020-04-23 15:41:01,GB,Queen Alexandra Hospital - Acute Medicine,True,62219
+714,2020-04-23 15:41:31,GB,Colchester General Hospital,False,e97fa6fb-5f40-4933-aaf0-bcc19a0b560e
+715,2020-04-23 15:41:54,GB,Croydon University Hospital,True,58190
+716,2020-04-23 15:41:54,GB,Derriford Hospital,True,9935
+717,2020-04-23 15:42:12,GB,King George Hospital,True,52753
+718,2020-04-23 15:42:21,GB,South Tyneside District General Hospital,True,cf2ed4d0-6d6a-4134-8e5c-b2d6d184874b
+719,2020-04-23 15:42:34,GB,Lister Hospital,True,24482
+720,2020-04-23 15:43:08,GB,National Hospital for Neurology and NeuroSurgery,True,18752
+721,2020-04-23 15:44:25,GB,The Royal Bolton Hospital,False,a7510254-670a-4a6f-a067-877422b82e73
+722,2020-04-23 15:45:31,GB,Bristol Royal Infirmary Staff,True,537afce1-d9b5-47b6-8db1-1c6db5975345
+723,2020-04-23 15:45:55,GB,Lewisham Hospital,True,33679
+724,2020-04-23 15:45:59,GB,Barnsley District General Hospital,False,e7335af1-15f0-4188-8638-21e329bdc29b
+725,2020-04-23 15:46:45,GB,Royal Free Hospital,True,8db49b56-0e22-4913-9437-fa1641f51da8
+726,2020-04-23 15:47:27,GB,Gloucester Royal Hospital,True,1592
+727,2020-04-23 15:47:49,GB,Manchester Royal Infirmary,True,65115
+728,2020-04-23 15:47:58,GB,Manchester Royal Infirmary,True,65115
+729,2020-04-23 15:47:59,GB,Royal Derby Hospital,False,53925
+730,2020-04-23 15:48:35,GB,Northwick Park & St Marks Hospital,False,12466
+731,2020-04-23 15:48:49,GB,Royal Berkshire Hospital,True,af4861c9-d59d-4bcb-9bee-8dbaeca05ac7
+732,2020-04-23 15:49:08,GB,Scunthorpe General Hospital,True,7015c3fd-482d-48b3-bc9d-94c29e527981
+733,2020-04-23 15:49:46,GB,Queen Alexandra Hospital,True,7516c3cc-2084-43eb-bbc6-5b973d3c7abd
+734,2020-04-23 15:49:52,GB,Royal Liverpool University Hospital,True,70457371-513d-405c-9a80-925a0353986a
+735,2020-04-23 15:52:42,GB,Luton and Dunstable Hospital,True,16bbea2c-bf7d-4e2d-89db-417e1cfff6ec
+736,2020-04-23 15:53:01,GB,Ealing Hospital,True,d9b2ddb9-1a76-4c0e-a635-c2c067868448
+737,2020-04-23 15:53:04,GB,Salisbury District Hospital,True,21170
+738,2020-04-23 15:53:36,GB,Basildon University Hospital,False,4317
+739,2020-04-23 15:53:48,GB,Kingston Hospital,True,103407a5-6471-42c2-b4ff-9701b73eaa6d
+740,2020-04-23 15:53:50,GB,Cheltenham General Hospital,True,7eda6e09-d102-4ade-9fd3-2777cac61a2e
+741,2020-04-23 15:54:19,ZA,Tygerberg COVID-19,False,400010154
+742,2020-04-23 15:55:20,GB,Tunbridge Wells Hospital,True,7ad7b260-5881-4004-8991-1c78d0f36ed3
+743,2020-04-23 15:55:28,GB,King George Hospital,True,8c763679-c9ca-4048-b5cf-49d7c568bfa0
+744,2020-04-23 15:55:44,GB,Emergency Medicine - St Helier Hospital (MAIN),False,48660
+745,2020-04-23 15:57:21,GB,Ipswich Hospital,True,4349
+746,2020-04-23 15:57:27,GB,Ipswich Hospital,True,d074b916-13da-4052-9db6-4875a37fd25c
+747,2020-04-23 15:58:07,GB,King's College Hospital,True,7dc19d36-864a-4935-b38f-662580241aeb
+748,2020-04-23 15:59:01,GB,West Middlesex University Hospital,True,13419
+749,2020-04-23 15:59:51,GB,Royal Sussex County Hospital,False,90c1b411-b244-40f5-a6af-0bd945c40c6c
+750,2020-04-23 15:59:54,GB,George Eliot Hospital - Acute Services,True,800012876
+751,2020-04-23 16:00:30,GB,Barnet Hospital,False,c1e280e4-bdf8-4698-9ecd-efe42d0d9c8a
+752,2020-04-23 16:00:31,GB,St John's Hospital,True,4a57ce84-4b36-451c-8946-7eb2066d28f1
+753,2020-04-23 16:01:23,GB,Leicester Royal Infirmary,True,25933
+754,2020-04-23 16:01:24,GB,Royal London Hospital,True,8483
+755,2020-04-23 16:01:49,GB,Royal Hampshire County Hospital,True,c1cb9564-14ea-4d82-b4c1-895559afc3c8
+756,2020-04-23 16:02:43,GB,Lewisham Hospital,False,9865
+757,2020-04-23 16:02:53,GB,Royal London Hospital,True,0929dd39-52a3-4246-abc7-24e4941b8704
+758,2020-04-23 16:03:39,GB,Royal Hampshire County Hospital,True,2abbc57e-529d-421d-b9e3-1881bf91f7c8
+759,2020-04-23 16:05:06,GB,North Hampshire Hospital,False,800013166
+760,2020-04-23 16:05:28,GB,Royal London Hospital,False,800013168
+761,2020-04-23 16:05:51,GB,Wycombe General Hospital,True,8520
+762,2020-04-23 16:06:27,GB,University Hospital of Wales,True,35624
+763,2020-04-23 16:07:38,GB,Horton General Hospital,True,b9c560cd-fcee-4918-a7c2-e539110f0974
+764,2020-04-23 16:07:52,GB,University College London Hospital NHS Trust,True,13540
+765,2020-04-23 16:07:54,GB,University Hospital Llandough,True,52080
+766,2020-04-23 16:08:23,GB,Royal Victoria Hospital (Belfast),True,6f6459ec-a2bd-4543-abe7-a54d4b906459
+767,2020-04-23 16:08:49,GB,Ipswich Hospital,True,e9196d80-2ab4-494a-a5a0-72690a4d3c85
+768,2020-04-23 16:09:02,GB,Edinburgh Western General,True,f0bfef7d-86c0-4ac4-b663-1d84f0f874f6
+769,2020-04-23 16:10:39,GB,North Middlesex Hospital,True,44186b80-68f9-4ca4-9411-e441c53f76e6
+770,2020-04-23 16:11:26,GB,Princess Royal University Hospital (Kent),False,6525
+771,2020-04-23 16:11:45,GB,Newham General Hospital,False,b3e90955-745a-4118-baa9-724bf1864df7
+772,2020-04-23 16:11:54,GB,Royal Preston Hospital,False,55abe689-56d1-4dfa-b89c-53b7850bfc44
+773,2020-04-23 16:15:18,GB,Queen Elizabeth Hospital (Birmingham),True,48067
+774,2020-04-23 16:15:37,GB,Royal Stoke Hospital,True,8e1abc32-8f3e-4b50-87e9-777d34578de6
+775,2020-04-23 16:15:54,GB,Torbay District General Hospital,False,59366
+776,2020-04-23 16:17:49,GB,Wycombe General Hospital,True,800013177
+777,2020-04-23 16:17:59,GB,Whipps Cross University Hospital,True,1d5299d9-4c32-4101-ad00-d6299d0fcffe
+778,2020-04-23 16:17:59,US,NY - Montefiore Medical Center - Moses,False,2890
+779,2020-04-23 16:20:40,GB,Hillingdon Hospital,True,800003342
+780,2020-04-23 16:22:15,GB,Frimley Park Hospital,True,37554
+781,2020-04-23 16:22:24,GB,North Middlesex Hospital,False,800013179
+782,2020-04-23 16:22:33,GB,Princess Royal Maternity (Glasgow),True,213572cd-e4e5-4326-a672-da6292018407
+783,2020-04-23 16:24:56,GB,Worcestershire Royal Hospital,True,80f9f450-be5f-4252-8cdf-9e4e5d90eef3
+784,2020-04-23 16:25:02,GB,Arrowe Park Hospital,False,533fa8f3-7b53-4bf3-8962-9520f2a71446
+785,2020-04-23 16:25:37,GB,Great Ormond Street Hospital NHS Trust,True,7d1116e8-5614-4765-90a9-8338e423211e
+786,2020-04-23 16:27:03,GB,The Whittington Hospital,True,24661b68-db39-463a-bdba-37ec4e0d5961
+787,2020-04-23 16:27:17,GB,Croydon University Hospital,True,cfe8e6c2-d15e-429d-903c-0bc5040b5b95
+788,2020-04-23 16:27:59,ZA,Tygerberg Hospital,False,b97f6a1f-c2e5-41c8-9c5d-3df2f2c93cf8
+789,2020-04-23 16:28:22,GB,Royal Liverpool University Hospital,False,89f36758-a7ff-4cef-b770-fbcad5512f91
+790,2020-04-23 16:28:34,GB,East Surrey Hospital,False,54059
+791,2020-04-23 16:29:18,GB,Glenfield General Hospital,True,54908
+792,2020-04-23 16:30:55,GB,Queen Elizabeth Hospital (Birmingham),True,800013182
+793,2020-04-23 16:31:37,GB,Royal Cornwall Hospital (treliske),True,ba2bda3d-1a0e-479f-96fb-9a6b122937d3
+794,2020-04-23 16:32:02,GB,Princess Royal University Hospital (Kent),False,667
+795,2020-04-23 16:32:31,GB,King George Hospital,True,77cf836c-7aae-40c4-b03e-c4434f2d53c4
+796,2020-04-23 16:33:37,GB,"Queens Medical Centre, Nottingham University Hospital",True,3f13ff60-1a77-4884-8438-90f61654808e
+797,2020-04-23 16:33:42,GB,Royal Hospital for Children (Glasgow) - Induction information for Medical staff,True,71192
+798,2020-04-23 16:35:45,GB,Glasgow Royal Infirmary,True,e6d36dc7-3978-45e2-b7ce-45ef8bb627d8
+799,2020-04-23 16:35:51,GB,Northwick Park & St Marks Hospital,True,59356
+800,2020-04-23 16:35:59,GB,Worcestershire Royal Hospital,False,50256
+801,2020-04-23 16:36:12,GB,Guy's Hospital,True,750cecdd-fd26-4f7a-9c86-efe1d5c2f32a
+802,2020-04-23 16:36:55,GB,Bedford Hospital,True,3f911532-79b1-447e-91fc-9813b36601c1
+803,2020-04-23 16:36:57,GB,North Middlesex Hospital,True,28315
+804,2020-04-23 16:37:20,GB,Medway Maritime Hospital (rehab-Front Block),True,15591
+805,2020-04-23 16:38:47,GB,Doncaster Royal Infirmary,False,2e3b779d-43f6-4d34-89ec-0d4f01b5d25d
+806,2020-04-23 16:39:58,GB,Chorley and South Ribble District General Hospital,False,7f56352f-f54a-4ba5-b8f8-050493a7c6a2
+807,2020-04-23 16:39:58,GB,Chorley and South Ribble District General Hospital,False,7f56352f-f54a-4ba5-b8f8-050493a7c6a2
+808,2020-04-23 16:40:20,GB,Leicester Royal Infirmary,True,61112
+809,2020-04-23 16:40:36,GB,Royal Victoria Hospital (Belfast),True,18507545-b25c-42b0-ac69-d6ffba347783
+810,2020-04-23 16:42:50,ZA,Groote Schuur Hospital,True,41684
+811,2020-04-23 16:43:05,GB,Leicester General Hospital,True,98371b2d-154d-4e8d-b35f-1ca60c5965e1
+812,2020-04-23 16:43:59,GB,Royal Hampshire County Hospital,False,62564
+813,2020-04-23 16:44:02,GB,St Mary's Hospital (Manchester),True,7bea0053-77e1-46b9-a6d8-042741b3a20d
+814,2020-04-23 16:44:10,GB,Royal Hallamshire Hospital,False,20152
+815,2020-04-23 16:44:21,GB,Cambridge University Hospital,True,92d332e3-4b5a-44c1-82e3-d9626ed71e48
+816,2020-04-23 16:46:23,GB,Wythenshawe Hospital,True,a4de4402-195f-40af-9764-b76eb73b1fe2
+817,2020-04-23 16:48:19,GB,Queen Elizabeth University Hospital (Glasgow),True,800008327
+818,2020-04-23 16:48:26,GB,Worthing Hospital,False,2a018c23-f9ae-48ab-af13-0fe53a2b210e
+819,2020-04-23 16:48:28,GB,St Mary's Hospital (Paddington),True,49593
+820,2020-04-23 16:50:59,GB,Broomfield Hospital,True,62af4383-8e68-4914-96fc-267740b51ba4
+821,2020-04-23 16:51:23,GB,Royal Sussex County Hospital,True,35097
+822,2020-04-23 16:53:05,GB,Stoke Mandeville Hospital,True,01651de0-7ce5-4021-b541-ad91da5400ed
+823,2020-04-23 16:53:25,GB,Leicester Royal Infirmary,False,60a031bd-4019-43f6-9b49-7895e7647bb6
+824,2020-04-23 16:53:33,GB,Northern General Hospital,True,800008303
+825,2020-04-23 16:55:19,GB,Royal London Hospital,True,12583
+826,2020-04-23 16:57:14,GB,Surrey and Sussex NHS Trust - Ophthalmology Dept,True,d09d0e16-155e-4ffe-9964-a0e61386006d
+827,2020-04-23 16:58:33,GB,UCLH - Emergency Department,True,50130
+828,2020-04-23 16:58:35,GB,Gloucester Royal Hospital,True,800006163
+829,2020-04-23 16:59:10,GB,Musgrove Park Hospital,True,e4dfd690-0c3a-4741-a290-565a6d042d87
+830,2020-04-23 16:59:22,GB,Southampton General Hospital,True,14943
+831,2020-04-23 16:59:52,GB,Northampton General Hospital ( Acute ),True,32dc8a28-f1f7-4606-8f5a-31e8c61398cd
+832,2020-04-23 17:00:39,GB,Princess Alexandra Hospital,True,58166
+833,2020-04-23 17:01:18,GB,Princess Royal Hospital (West Sussex),True,c87e2f13-f638-4888-8fc4-a3aed0e667b0
+834,2020-04-23 17:02:40,GB,Queen Alexandra Hospital,True,68f517da-892c-4aa7-be77-768581334766
+835,2020-04-23 17:03:52,GB,Chelsea and Westminster,True,6ceae2cd-ded8-46db-aa93-f568a3292a3f
+836,2020-04-23 17:03:53,GB,University Hospital of Wales,True,a6000a00-aab2-4874-b152-ecbe3f527398
+837,2020-04-23 17:05:28,GB,Royal Victoria Hospital (Belfast),True,f153dfdc-2bcb-4e35-b859-2fdce0564734
+838,2020-04-23 17:05:53,GB,Gloucester Royal Hospital,True,800013188
+839,2020-04-23 17:06:58,GB,Royal Victoria Hospital (Belfast),True,5518
+840,2020-04-23 17:07:05,GB,Royal Victoria Hospital (Belfast),True,5518
+841,2020-04-23 17:07:57,GB,Kingston Hospital,True,495ad8a4-9069-497c-8002-2387962306da
+842,2020-04-23 17:09:50,GB,County Hospital,False,52988
+843,2020-04-23 17:11:08,GB,Northwick Park & St Marks Hospital,False,29178
+844,2020-04-23 17:11:14,ZA,Groote Schuur Hospital,True,2d2b662c-33f8-4838-af6b-01dbba87d379
+845,2020-04-23 17:11:20,GB,Eastbourne District General Hospital,True,52442
+846,2020-04-23 17:11:27,GB,Northwick Park & St Marks Hospital,True,51cc45c2-9c6a-4b01-98d2-e01b6cb303df
+847,2020-04-23 17:12:20,GB,Cambridge University Hospital,True,38438
+848,2020-04-23 17:13:49,GB,John Radcliffe Hospital,True,54464
+849,2020-04-23 17:15:00,GB,Royal Blackburn,True,56784f2c-91c0-449e-92b5-36b4ac486ffe
+850,2020-04-23 17:17:48,GB,Great Ormond Street Hospital NHS Trust,True,8ab475a4-2e3c-4c7f-8dd4-fbcd7fe3090f
+851,2020-04-23 17:18:31,GB,Frimley Park Hospital,True,04b9e5bb-55f5-4751-b2bc-cf728f478287
+852,2020-04-23 17:18:46,GB,Queen Alexandra Hospital,True,8f786ab2-2c4a-4100-9de2-2e373cf9d2a7
+853,2020-04-23 17:19:02,GB,Royal London Hospital,False,73282
+854,2020-04-23 17:20:51,GB,Norfolk and Norwich University Hospital,True,78eb48c7-ae41-449a-87bf-d13ebb9db67d
+855,2020-04-23 17:21:14,GB,Royal Victoria Hospital (Belfast),True,7a0f36ea-67a0-40e6-8fa2-ed1e924d5196
+856,2020-04-23 17:22:19,GB,New Cross Hospital,False,cd58a8ac-79ec-4f60-b1de-2a3a44780dbf
+857,2020-04-23 17:23:27,US,NY - Montefiore Medical Center - Moses,False,ab7ec487-8f60-431e-a1b5-31f1faf683c6
+858,2020-04-23 17:24:04,GB,Queen Elizabeth The Queen Mother Hospital,True,36100
+859,2020-04-23 17:25:55,GB,Royal Sussex County Hospital,True,0bde0cd2-f6dc-4c5f-a8f3-4f5dfb354e6f
+860,2020-04-23 17:26:08,GB,Manchester Royal Infirmary,True,b4d7f977-dd4c-4a27-bcf7-7e0ced87d6ae
+861,2020-04-23 17:28:37,GB,King George Hospital,True,30013
+862,2020-04-23 17:28:50,GB,Queen Elizabeth The Queen Mother Hospital,True,800013193
+863,2020-04-23 17:29:15,GB,St Thomas' Hospital,True,58395
+864,2020-04-23 17:29:21,GB,Southampton General Hospital,True,56612
+865,2020-04-23 17:30:15,GB,Royal Victoria Hospital (Belfast),True,62781
+866,2020-04-23 17:31:15,GB,Great Ormond Street Hospital NHS Trust,True,68347
+867,2020-04-23 17:31:54,GB,Warrington Hospital - Foundation Doctors,True,b1c4de32-237d-4034-b2e9-c33d2d6ce0c1
+868,2020-04-23 17:32:10,GB,King's College Hospital,True,e798a232-4f1a-490e-a3a1-2b740c298fdc
+869,2020-04-23 17:34:15,GB,Northern General Hospital,True,d0252f53-0706-4aaf-8d6c-31d00a5b26fc
+870,2020-04-23 17:34:41,GB,Borders General Hospital,False,18822
+871,2020-04-23 17:35:26,GB,Stepping Hill Hospital,True,100cb0f4-6d87-4bcf-855e-244f20eaadc0
+872,2020-04-23 17:36:18,GB,King's College Hospital,False,50046
+873,2020-04-23 17:36:53,GB,Northwick Park & St Marks Hospital,True,8730b3c7-f650-4aef-8105-f96deb93660b
+874,2020-04-23 17:37:39,GB,Royal London Hospital,True,50778
+875,2020-04-23 17:38:26,GB,Guy's Hospital,True,7208
+876,2020-04-23 17:38:31,US,NY - HHC Jacobi Hospital,True,56b48014-4674-4ec0-aa26-b78a6db78cf4
+877,2020-04-23 17:39:14,GB,St George's (London),True,c727aa23-ddf0-4cc0-8ebd-af6ab8b8450d
+878,2020-04-23 17:40:36,GB,Hammersmith Hospital,True,d5ecb684-c2fa-45a4-9509-8b3cd96c99e7
+879,2020-04-23 17:40:44,GB,East Surrey Hospital,False,f634a146-93d9-4437-b162-33acfa3020f2
+880,2020-04-23 17:40:51,GB,Forth Valley Royal Hospital,False,a48db3c8-199f-4f94-915f-da719cf05a15
+881,2020-04-23 17:40:56,GB,Northwick Park & St Marks Hospital,True,b17ed8a6-5853-46d7-ada4-8fe875084984
+882,2020-04-23 17:42:09,GB,Queen Elizabeth Hospital (Woolwich),False,9d7878d6-8400-4013-8e48-014aeebf7787
+883,2020-04-23 17:42:23,GB,Northampton General Hospital ( Acute ),True,60513
+884,2020-04-23 17:44:22,GB,Dundonald Ulster Hospital,True,53568
+885,2020-04-23 17:44:50,GB,Royal Sussex County Hospital,True,50b2c783-7dea-41cf-98b1-d3bc7805de6f
+886,2020-04-23 17:45:12,GB,North Middlesex Hospital,True,7b895342-bc33-49af-9e96-022c78e3164c
+887,2020-04-23 17:47:31,GB,Gloucester Royal Hospital,True,23512
+888,2020-04-23 17:48:33,GB,Northwick Park & St Marks Hospital,False,c94baac2-9529-4018-bcd0-db454cc834cc
+889,2020-04-23 17:52:38,GB,James Paget Hospital,False,8515e79a-52ae-4636-ba63-c9f87cfd4f15
+890,2020-04-23 17:52:47,GB,Queen Elizabeth The Queen Mother Hospital,True,7fe46f26-c015-4971-8b14-a935497ae459
+891,2020-04-23 17:53:04,MT,Mater Dei Hospital (Malta),True,400010446
+892,2020-04-23 17:54:33,US,NY - Montefiore Medical Center - Moses,True,27857
+893,2020-04-23 17:56:09,GB,Southampton General Hospital,True,37363
+894,2020-04-23 17:59:07,GB,Royal Devon and Exeter Hospital (wonford),True,800013203
+895,2020-04-23 18:00:11,GB,John Radcliffe Hospital,True,ba9abb2a-4829-4690-8722-edae69222c56
+896,2020-04-23 18:02:55,GB,Royal United Hospital,True,48929
+897,2020-04-23 18:05:58,GB,Broomfield Hospital,False,226371fd-dd72-42e1-a787-5ad7206fa1fa
+898,2020-04-23 18:07:08,GB,Barnsley District General Hospital,True,40761
+899,2020-04-23 18:08:15,GB,University Hospital of Wales,True,78118
+900,2020-04-23 18:09:42,GB,Barnet Hospital,True,51471
+901,2020-04-23 18:10:09,GB,Hammersmith Hospital,False,10428
+902,2020-04-23 18:13:58,GB,Doncaster Royal Infirmary,True,d84105db-72b5-4ab7-9039-7a2e9134c5ed
+903,2020-04-23 18:14:35,GB,Nightingale London - Education Faculty,False,15710
+904,2020-04-23 18:16:30,GB,Frimley Park Hospital,True,394c1540-dde9-40bb-b3e3-8748877f1c66
+905,2020-04-23 18:18:54,GB,Alder Hey Children's Hospital,True,5663522f-9c01-40cd-ac67-f31f7eee2e3b
+906,2020-04-23 18:22:05,GB,Glangwili General Hospital,False,3f165c8c-2b57-42aa-b0ef-0488dfce632d
+907,2020-04-23 18:25:27,GB,Northwick Park & St Marks Hospital,True,cc11d5ee-535e-40f2-bdd9-5ef1e5c87069
+908,2020-04-23 18:30:14,GB,University Hospital Crosshouse,True,9c115ccc-6bde-4f25-ab19-edd18f1a3c88
+909,2020-04-23 18:34:56,GB,North Bristol NHS Trust,True,67e10416-f4e6-4072-9b3b-a547cad9257a
+910,2020-04-23 18:36:11,GB,Glenfield General Hospital,False,49143
+911,2020-04-23 18:36:35,GB,St James's University Hospital,True,85d07cbb-643b-461f-9666-a5aff3228734
+912,2020-04-23 18:38:07,GB,Queen Elizabeth Hospital (Birmingham),True,1607
+913,2020-04-23 18:38:15,GB,Royal Alexandra Hospital (Paisley),True,36850
+914,2020-04-23 18:41:51,GB,Royal Devon and Exeter - Emergency Department,True,65290ec5-3bdd-4d2d-825d-35e3616af925
+915,2020-04-23 18:42:50,GB,Macclesfield District General Hospital,False,9f34ef68-a1a1-4eb6-a899-14cbe0aa343f
+916,2020-04-23 18:42:50,GB,Macclesfield District General Hospital,False,9f34ef68-a1a1-4eb6-a899-14cbe0aa343f
+917,2020-04-23 18:45:58,GB,Salisbury District Hospital,True,f2cf9471-1ba4-4340-a214-f42de9ef81fd
+918,2020-04-23 18:48:43,GB,Doncaster Royal Infirmary,False,0a1127a0-f743-4609-9c91-11adb6093945
+919,2020-04-23 18:49:12,GB,Milton Keynes University Hospital NHS Foundation Trust,True,b516fc7a-09e5-46a0-bbaa-37bfccd20c94
+920,2020-04-23 18:49:49,GB,Nightingale London - Education Faculty,True,800013195
+921,2020-04-23 18:51:00,GB,Wythenshawe Hospital,True,5dbeb317-2663-454a-b7b1-bf90e7bbb890
+922,2020-04-23 18:51:37,GB,Newham General Hospital,False,ac2fef51-01e4-4404-8fb6-71a63f1d9f08
+923,2020-04-23 18:51:54,GB,King's College Hospital - Anaesthetics,True,28684
+924,2020-04-23 18:51:57,GB,Stepping Hill Hospital,True,ad64528b-ee2e-426c-b578-f2f3913f8db1
+925,2020-04-23 18:53:37,GB,Royal Cornwall Hospital (treliske),True,41351
+926,2020-04-23 18:53:39,GB,Student Nurse Jon,True,e7c2b1d0-c0ca-4389-9904-276ba6433004
+927,2020-04-23 18:54:10,FR,Royal Albert Edward Infirmary,True,fae3ace8-6aac-4a4c-b092-5fc45f0c7cf6
+928,2020-04-23 18:54:18,GB,St George's (London),False,67664
+929,2020-04-23 18:54:56,GB,Good Hope Hospital,True,50296
+930,2020-04-23 18:54:59,GB,North Middlesex Hospital,True,69017
+931,2020-04-23 18:57:28,GB,Milton Keynes University Hospital NHS Foundation Trust,False,d2ae071d-7c7a-49bd-89c3-e092af1f934f
+932,2020-04-23 18:58:04,GB,Dr Gray's Hospital,True,cbff1a1d-1521-4f1f-9a96-9c13301c634d
+933,2020-04-23 19:00:36,GB,St Helier Hospital,False,756dcf9f-6eab-437a-8fe1-6cfe95d256e2
+934,2020-04-23 19:01:11,GB,Alder Hey Children's Hospital,True,e3af4260-0652-4344-a97f-bc5ea4d82fec
+935,2020-04-23 19:01:16,GB,Manchester Royal Infirmary,False,95799f6c-bc27-4d85-8cc2-b01338010335
+936,2020-04-23 19:01:47,GB,Frimley Park Hospital,False,24f9c12e-735f-41e0-97d1-af2a62a26277
+937,2020-04-23 19:01:53,GB,Hairmyres Hospital,False,e62d79e1-51fe-4393-ad7f-1effa38040cd
+938,2020-04-23 19:03:08,GB,John Radcliffe Hospital,True,53012
+939,2020-04-23 19:03:14,GB,University Hospital of Wales,True,788c4358-4f6e-4782-a8da-34fe5e96a053
+940,2020-04-23 19:03:47,GB,Royal Victoria Hospital,True,99458884-2226-4ac0-84a1-06457556650e
+941,2020-04-23 19:03:55,GB,Fractures,True,37e87d27-6f7f-4730-a8de-66a450c599d8
+942,2020-04-23 19:06:18,GB,Northern General Hospital,True,b2b36d59-2e05-4566-b8ac-ff12305023c5
+943,2020-04-23 19:08:44,GB,King's College Hospital,True,12218
+944,2020-04-23 19:09:22,GB,Royal Victoria Hospital (Belfast),True,19862
+945,2020-04-23 19:09:22,GB,Royal Victoria Hospital (Belfast),True,19862
+946,2020-04-23 19:10:40,GB,Tameside General Hospital,True,ea23be81-cf2d-4384-9bf6-17bc23193849
+947,2020-04-23 19:13:55,GB,Whipps Cross University Hospital,False,73144
+948,2020-04-23 19:14:32,GB,John Radcliffe Hospital,True,029ceb1e-d2cc-4311-b998-233f4d577bcb
+949,2020-04-23 19:17:41,GB,Kingston Hospital,True,aed3c741-f6e1-4fb1-9913-e7886ffc3584
+950,2020-04-23 19:17:56,GB,St Thomas' Hospital,False,71262
+951,2020-04-23 19:19:13,GB,Manchester Royal Infirmary,True,f2f9ff27-cc21-465c-b59b-ec18130dc256
+952,2020-04-23 19:19:42,GB,Royal London Hospital,True,8245
+953,2020-04-23 19:20:19,GB,Guy's Hospital,False,64960
+954,2020-04-23 19:21:32,GB,Prince Charles Hospital,True,800013232
+955,2020-04-23 19:21:59,GB,Nightingale London - Education Faculty,True,800013216
+956,2020-04-23 19:22:28,US,NY - Montefiore Medical Center - Moses,False,747c2693-dd2b-4723-b802-5e5292286cc8
+957,2020-04-23 19:25:11,GB,Musgrove Park Hospital,True,15138
+958,2020-04-23 19:25:20,GB,Poole General Hospital,True,748c76e2-eedb-4fc4-880d-aeb6bd11182f
+959,2020-04-23 19:25:51,GB,West Middlesex University Hospital,True,641e0220-6351-4d7f-b74e-33b9e99c4d2a
+960,2020-04-23 19:27:58,GB,Royal Infirmary of Edinburgh,True,1ed77590-6619-4941-a587-f527d697a721
+961,2020-04-23 19:29:02,GB,Queen Elizabeth Hospital (Woolwich),True,57265
+962,2020-04-23 19:29:14,GB,Royal Stoke Hospital,True,800006154
+963,2020-04-23 19:29:43,GB,Basingstoke and North Hampshire Hospital,False,7fb5fa52-cb2c-484e-8d3c-706b0f849d7f
+964,2020-04-23 19:35:35,GB,Whiston Hospital,True,16702
+965,2020-04-23 19:35:43,GB,Nightingale London - Education Faculty,True,215d87b1-6c1f-42e1-821a-9b50e3dea0f5
+966,2020-04-23 19:38:26,GB,John Radcliffe Hospital,True,3d2503b4-9f51-46d8-bb12-d644847b0ec5
+967,2020-04-23 19:39:03,GB,Horton General Hospital,True,54718
+968,2020-04-23 19:40:08,GB,St Bartholomew's Hospital,True,9067ac13-75a5-4787-a85c-d3fab867df8e
+969,2020-04-23 19:41:08,GB,Royal Free Hospital,False,24948
+970,2020-04-23 19:44:21,GB,"Queens Medical Centre, Nottingham University Hospital",True,21387
+971,2020-04-23 19:44:25,GB,Nightingale London - Education Faculty,True,9f487291-86e0-4292-b81a-ace03d45055e
+972,2020-04-23 19:45:17,US,NY - Montefiore Medical Center - Moses,True,8956
+973,2020-04-23 19:45:24,GB,Emergency Department - Queen Alexandra Hospital,True,66973
+974,2020-04-23 19:45:28,GB,Emergency Department - Queen Alexandra Hospital,True,66973
+975,2020-04-23 19:45:50,GB,Royal Cornwall Hospital (treliske),True,1fdf1be9-f8b8-4e75-9b22-46e714f353a1
+976,2020-04-23 19:46:42,GB,Barnsley District General Hospital,True,e7e84241-917c-49a3-935b-f024115246a3
+977,2020-04-23 19:47:53,GB,University Hospital of Wales,False,ed629588-23e6-4143-86a1-8853cf2702f3
+978,2020-04-23 19:49:38,GB,Leicester Royal Infirmary,False,1cec0a85-f4ed-44d3-b346-10844a372d44
+979,2020-04-23 19:50:20,GB,Nightingale London - Education Faculty,False,979ef1aa-f22c-4117-9f48-44ce8dfa0657
+980,2020-04-23 19:54:31,GB,King's College Hospital,True,37263
+981,2020-04-23 19:54:41,GB,Queen Elizabeth Hospital (Birmingham),False,9efec44c-26e4-42ee-973d-e21cdf016861
+982,2020-04-23 19:55:20,GB,Ealing Hospital,True,75c6cc85-daea-48ee-a0e0-adeb45aba1dc
+983,2020-04-23 19:55:57,GB,Cambridge University Hospital,True,384
+984,2020-04-23 19:58:23,GB,North Manchester General Hospital,False,dcabd7ee-f5cd-45dc-98fc-178c1dbb3e94
+985,2020-04-23 20:00:51,GB,Musgrove Park Hospital,True,cdec2e3b-4d6d-463c-9d7e-967f9b508368
+986,2020-04-23 20:01:50,MT,Mater Dei Hospital (Malta),True,95961
+987,2020-04-23 20:03:26,US,NY - Maimonides Medical Center,True,84b69179-b06a-4abb-a39d-9c8ce4fafadc
+988,2020-04-23 20:04:55,GB,Nightingale London - Education Faculty,True,75a2cb51-a7db-40ac-bfee-8ea30b5a7847
+989,2020-04-23 20:06:35,GB,Luton and Dunstable Hospital,False,a9613122-8b96-4c67-9fea-5f8b06e07652
+990,2020-04-23 20:06:43,GB,Royal London Hospital,True,45eb4a4a-c6b3-4cc1-a515-510aa94118b6
+991,2020-04-23 20:09:19,GB,Croydon University Hospital,True,dc6f8ca4-84eb-4446-99d0-ab48b57dde29
+992,2020-04-23 20:10:09,GB,Royal Infirmary of Edinburgh,True,800003854
+993,2020-04-23 20:10:13,GB,North Middlesex Hospital,False,9a88587e-806c-4966-ba2d-ab9e21416339
+994,2020-04-23 20:11:52,US,NY - Montefiore Medical Center - Moses,True,2c16ece6-ee0c-4676-8756-6a84189b29e4
+995,2020-04-23 20:11:56,ZA,Tygerberg Hospital,True,64128f14-bbc6-44ab-a771-03afcf94c3db
+996,2020-04-23 20:13:24,GB,Milton Keynes University Hospital NHS Foundation Trust,True,800010206
+997,2020-04-23 20:16:16,GB,Royal Berkshire Hospital,False,61361
+998,2020-04-23 20:17:25,GB,Queen's Hospital,True,9b840c62-e60e-45e5-9b20-c4e90f666a3a
+999,2020-04-23 20:19:14,GB,Nightingale London - Education Faculty,True,4c33750c-0e3a-4176-aa0b-8a745d0afffa
+1000,2020-04-23 20:19:50,GB,Royal Surrey County Hospital,False,22f6c594-2b54-4ac2-b72c-54c718a57e54
+1001,2020-04-23 20:19:55,GB,Charing Cross,True,7be7ed25-5183-468f-9479-1b0b3ce9842f
+1002,2020-04-23 20:20:51,GB,RVH Covid19,True,549ca8e3-69dc-4bcb-a926-9f83133720df
+1003,2020-04-23 20:21:40,GB,Nightingale London - Education Faculty,False,0789860e-c75b-4d30-9ad6-2a17a1af06a2
+1004,2020-04-23 20:23:37,GB,Nightingale London - Education Faculty,True,a4e9b476-7038-47a3-972c-33bdfaf43afa
+1005,2020-04-23 20:24:45,GB,Nightingale London - Education Faculty,False,d66d4b36-3c89-4cea-9420-05912b196a7b
+1006,2020-04-23 20:28:00,GB,Great Ormond Street Hospital NHS Trust,True,761911a9-240a-4d99-b776-15bb069d853a
+1007,2020-04-23 20:29:45,GB,St George's (London),False,ff7f02c7-9cfa-4463-937c-a5b445a5f328
+1008,2020-04-23 20:31:35,GB,Northwick Park & St Marks Hospital,False,53946
+1009,2020-04-23 20:32:47,GB,Manchester Royal Infirmary,True,46396
+1010,2020-04-23 20:32:51,US,NY - Montefiore MC - Einstein,True,3602
+1011,2020-04-23 20:47:09,GB,Royal Hampshire County Hospital,True,26757
+1012,2020-04-23 20:53:31,GB,Royal Free Hospital,True,954c064c-323e-484e-b021-696619b864f5
+1013,2020-04-23 20:57:48,GB,Wythenshawe Hospital,True,3da8c0e5-62ef-489c-bb8a-7ff5afeaa98a
+1014,2020-04-23 20:59:24,GB,Royal Cornwall Hospital (treliske),True,765b0196-37c8-4a12-a4fc-fba687753526
+1015,2020-04-23 21:02:04,GB,Royal Victoria Hospital,True,b0b64b2d-82ba-4f8a-84b3-a59a003cdadc
+1016,2020-04-23 21:03:05,GB,Yorkshire Ambulance Service,False,9ddd3c7c-2b0f-4624-9ded-172596f41df6
+1017,2020-04-23 21:03:55,GB,Royal Cornwall Hospital (treliske),True,c2dc01c2-94a9-4f1a-9dcb-35c2d345cc1b
+1018,2020-04-23 21:05:49,GB,East Surrey Hospital,True,27986
+1019,2020-04-23 21:07:39,GB,Charing Cross,True,12129
+1020,2020-04-23 21:11:12,GB,Great Ormond Street Hospital NHS Trust,True,2729
+1021,2020-04-23 21:11:52,GB,Nightingale London - Education Faculty,True,800013240
+1022,2020-04-23 21:11:52,GB,Nightingale London - Education Faculty,True,800013240
+1023,2020-04-23 21:15:29,GB,St Richard's Hospital,True,336308b9-fb73-4432-8111-3cb945ec9fea
+1024,2020-04-23 21:16:35,GB,John Radcliffe Hospital,True,22379
+1025,2020-04-23 21:20:11,GB,University Hospital of Wales,True,65904
+1026,2020-04-23 21:22:15,GB,Southampton General Hospital,False,9b8a371b-03df-4713-87f2-94dfe842690a
+1027,2020-04-23 21:27:38,GB,Nightingale London - Education Faculty,True,568cc34a-a7b4-4c35-bc45-3d015af3d7ab
+1028,2020-04-23 21:29:38,GB,Royal Sussex County Hospital,True,338261e9-ccff-4f71-9dd0-f15eed7a2711
+1029,2020-04-23 21:29:41,GB,Royal Sussex County Hospital,True,338261e9-ccff-4f71-9dd0-f15eed7a2711
+1030,2020-04-23 21:30:50,GB,University Hospital Monklands,True,1648e0b2-f51f-494e-8fd1-6e7de34c939e
+1031,2020-04-23 21:32:45,GB,Bristol Royal Infirmary Staff,True,b3ef226b-4581-4c82-b6fa-1d7a61ed41eb
+1032,2020-04-23 21:37:00,GB,Orthopaedics,False,70f24b94-5e6c-49b9-b8e7-650a32a1b9a1
+1033,2020-04-23 21:38:39,GB,Glasgow Royal Infirmary,False,028dcb47-637f-4a36-aa3f-82c83d83d87c
+1034,2020-04-23 21:39:28,GB,Southampton General Hospital,False,f0533ee3-90b3-475a-9c4e-251c6279ad31
+1035,2020-04-23 21:41:55,GB,Doncaster Royal Infirmary,True,ad97edd8-c26c-4d20-acc6-4615dd0993f4
+1036,2020-04-23 21:44:20,GB,Emergency Department - Princess Royal Hospital,True,372e0a96-75f8-4028-ac03-a89aec158355
+1037,2020-04-23 21:44:28,GB,Northern General Hospital,True,660e869d-8df6-4bd2-b66c-c7eed9f623f7
+1038,2020-04-23 21:45:03,GB,Southampton General Hospital,False,50e43c99-7cf0-4750-b0cd-eed696f55e14
+1039,2020-04-23 21:47:23,GB,Norfolk and Norwich University Hospital,True,46304
+1040,2020-04-23 21:49:51,GB,Princess Royal University Hospital (Kent),False,5aeb8499-43ed-427b-8c6a-77efeba9d0a0
+1041,2020-04-23 21:58:21,GB,John Radcliffe Hospital,True,21670
+1042,2020-04-23 21:58:25,GB,St George's (London),True,47934
+1043,2020-04-23 21:59:53,GB,Raigmore Hospital,True,1187
+1044,2020-04-23 22:00:06,GB,Nightingale London - Education Faculty,True,2a51725f-0e3f-4456-8d84-c7f526b507f1
+1045,2020-04-23 22:01:13,GB,Queen Elizabeth Hospital (Birmingham),True,981478eb-d070-4471-aa49-b4c0561c64dd
+1046,2020-04-23 22:03:42,GB,St Thomas' Hospital,True,1946
+1047,2020-04-23 22:05:29,GB,King's College Hospital,True,6317
+1048,2020-04-23 22:06:03,GB,Royal Devon and Exeter Hospital (wonford),True,800013106
+1049,2020-04-23 22:08:34,GB,HHFT - Emergency Department,True,13187
+1050,2020-04-23 22:11:23,GB,St Mary's Hospital (Paddington),False,00793cea-8014-4633-8aa3-dca4474ae666
+1051,2020-04-23 22:13:05,GB,Birmingham Heartlands Hospital,True,c43753fc-e579-43fd-a73e-1e31bf66b067
+1052,2020-04-23 22:17:06,GB,Warrington Hospital,False,69422
+1053,2020-04-23 22:18:51,GB,North Middlesex Hospital,True,2cc2f278-1d8f-46e5-8382-5ae0141d3327
+1054,2020-04-23 22:19:11,GB,Northern General Hospital,False,665f07bc-920c-4f55-a587-288bc4ee638b
+1055,2020-04-23 22:19:38,GB,Barnsley District General Hospital,False,5ddfabf9-fb58-419f-bfbc-b9c3e5d298cd
+1056,2020-04-23 22:19:54,GB,Salford Royal Hospitals NHS Trust,True,b8ad3a12-b73a-4633-abb7-62d9d29017a5
+1057,2020-04-23 22:21:45,GB,University Hospital of Wales,False,1596ed2b-af37-4cd5-98df-025df076cc9b
+1058,2020-04-23 22:21:51,GB,Luton and Dunstable Hospital,False,f2cc37af-2911-4f56-a874-09d408dd61b5
+1059,2020-04-23 22:22:04,GB,Hull Royal Infirmary,True,dd17928d-e53b-4195-ad07-7b2608546ca2
+1060,2020-04-23 22:22:33,GB,Salisbury District Hospital,True,bf962867-b7c3-4d24-872d-4cf8c089f349
+1061,2020-04-23 22:24:50,GB,Northwick Park & St Marks Hospital,True,350bba11-d1ab-44f6-86ef-cfb078ca60f8
+1062,2020-04-23 22:26:25,GB,Bedford Hospital,True,5c1b8c7f-3a88-40dd-977f-78385bdf178e
+1063,2020-04-23 22:29:17,GB,Sandwell General Hospital,True,248d6aa0-6645-407b-b0da-5e2a013c3178
+1064,2020-04-23 22:29:21,GB,Southampton General Hospital,True,52022
+1065,2020-04-23 22:29:28,GB,Aintree Hospital,False,69d4c65d-3575-4717-8401-f30ee0ca182d
+1066,2020-04-23 22:33:27,GB,Nightingale London - Education Faculty,True,fa0e9a23-8da0-49a2-97ab-d33889e18810
+1067,2020-04-23 22:38:00,GB,Morriston Hospital,True,51530
+1068,2020-04-23 22:38:02,GB,Whipps Cross University Hospital,True,22362
+1069,2020-04-23 22:39:42,GB,Southmead Hospital,True,38737
+1070,2020-04-23 22:40:18,GB,King's College Hospital,True,52422
+1071,2020-04-23 22:44:14,GB,Royal Hampshire County Hospital,True,702dac7e-87aa-46c5-9ef6-5999ab3c74f2
+1072,2020-04-23 22:45:50,GB,Whipps Cross University Hospital,True,3581
+1073,2020-04-23 22:49:11,GB,Royal Preston Hospital,False,63617
+1074,2020-04-23 22:50:12,GB,Queen Elizabeth Hospital (Woolwich),True,33821
+1075,2020-04-23 22:51:23,GB,Medway Maritime Hospital (rehab-Front Block),True,49777
+1076,2020-04-23 22:52:53,GB,Royal Free Hospital,False,8133
+1077,2020-04-23 22:56:50,GB,Nightingale London - Education Faculty,True,3a95dbb9-e3d7-4fb7-b6d6-bd413375c98a
+1078,2020-04-23 22:59:40,GB,Royal Hampshire County Hospital,False,58475
+1079,2020-04-23 23:00:24,GB,University Hospital Llandough,True,35346
+1080,2020-04-23 23:01:53,GB,Royal Brompton Hospital,True,38326
+1081,2020-04-23 23:03:53,GB,St Mary's Hospital (Paddington),True,53185
+1082,2020-04-23 23:08:06,GB,Broomfield Hospital,False,6582
+1083,2020-04-23 23:11:59,GB,Torbay District General Hospital,False,46806
+1084,2020-04-23 23:12:09,GB,Cambridge University Hospital,True,10554
+1085,2020-04-23 23:13:30,GB,"Queens Medical Centre, Nottingham University Hospital",True,c845433d-f8e1-4bf4-869d-df6872ef7b81
+1086,2020-04-23 23:14:12,GB,Nightingale London - Education Faculty,True,05987c2b-52ed-4988-9d10-33cbedc69a80
+1087,2020-04-23 23:14:31,GB,Stepping Hill Hospital,True,3672afab-20bf-4e19-9434-6a2f352fb163
+1088,2020-04-23 23:21:05,GB,Aberdeen Royal Infirmary,False,49648
+1089,2020-04-23 23:23:15,GB,Lewisham Hospital,True,800013299
+1090,2020-04-23 23:24:43,GB,Princess Alexandra Hospital,False,fea80c5e-c47a-4686-818b-de5ae5b789fb
+1091,2020-04-23 23:24:51,GB,Worthing Hospital,False,48088
+1092,2020-04-23 23:26:41,GB,Royal Free COVID-19,True,48193
+1093,2020-04-23 23:30:20,GB,Lister Hospital,False,26983
+1094,2020-04-23 23:30:27,GB,Fairfield General Hospital,False,800012355
+1095,2020-04-23 23:31:05,GB,St Thomas' Hospital,True,38802
+1096,2020-04-23 23:31:38,GB,Borders General Hospital,True,4c9f6193-6693-4b46-820f-b096a3fab9e5
+1097,2020-04-23 23:31:53,GB,Broomfield Hospital,True,3659
+1098,2020-04-23 23:37:30,GB,University College London Hospital NHS Trust,True,88746
+1099,2020-04-23 23:37:38,GB,Rotherham District General Hospital (pau),False,3525bc3b-7037-4ad6-bf7e-4fdf76eeaf3c
+1100,2020-04-23 23:40:42,GB,Royal Free COVID-19,False,46565
+1101,2020-04-23 23:40:47,GB,Charing Cross,True,51725
+1102,2020-04-23 23:40:59,GB,St George's (London),False,54956
+1103,2020-04-23 23:41:34,GB,Gloucester Royal Hospital,True,89bc1a2f-7bce-4801-9bbd-df70e6db2eb4
+1104,2020-04-23 23:47:11,GB,Croydon University Hospital,True,51856
+1105,2020-04-23 23:47:30,GB,Great Western Hospital,True,e37fd775-3580-4659-98f8-8b1b26aedc1f
+1106,2020-04-23 23:53:56,GB,Paediatrics,False,800013308
+1107,2020-04-23 23:53:57,GB,Basildon University Hospital,False,73274
+1108,2020-04-23 23:54:32,GB,Royal Hallamshire Hospital,False,2387f5f4-cfa9-469c-94ae-ab1c90a83e85
+1109,2020-04-23 23:57:12,GB,King's College Hospital,True,e5ac9d87-cc6d-4f3e-b1dd-89b30f779973
+1110,2020-04-23 23:57:14,GB,William Harvey Hospital (ashford),False,64275767-7384-4432-b127-5ebbd7c89d05
+1111,2020-04-23 23:59:48,GB,Royal Hampshire County Hospital,True,17944
+1112,2020-04-24 00:00:14,GB,North Middlesex Hospital,True,e213f98e-1c07-4791-b5dd-f324d4e2b649
+1113,2020-04-24 00:06:07,GB,North Middlesex Hospital,False,2c68ebce-8947-4cea-bc3f-d2e97f22e6f0
+1114,2020-04-24 00:07:28,GB,Stepping Hill Hospital,True,46456
+1115,2020-04-24 00:10:39,GB,Guy's & Tommies - Anaesthetics,True,4905
+1116,2020-04-24 00:11:49,GB,Whipps Cross University Hospital,True,a060f2ee-b452-410c-b2e8-a859b088e54d
+1117,2020-04-24 00:17:06,GB,Lister Hospital,True,22794
+1118,2020-04-24 00:17:22,GB,Bristol Royal Infirmary Staff,True,48914
+1119,2020-04-24 00:18:25,GB,Glangwili General Hospital,True,5b4c5e83-945f-43cc-bb9c-3731a52289ed
+1120,2020-04-24 00:23:03,GB,Royal Liverpool University Hospital,True,60986
+1121,2020-04-24 00:24:55,ZA,Groote Schuur Hospital,True,a2b277b4-f39c-4b16-b5ad-ad8141565631
+1122,2020-04-24 00:24:55,ZA,Groote Schuur Hospital,True,a2b277b4-f39c-4b16-b5ad-ad8141565631
+1123,2020-04-24 00:25:19,GB,Daisy Hill Hospital,True,43644
+1124,2020-04-24 00:27:17,GB,Hillingdon Hospital,False,41321
+1125,2020-04-24 00:29:07,GB,Craigavon Area Hospital,True,66dd61e3-dba4-4647-a3df-87c93678c7d0
+1126,2020-04-24 00:34:00,GB,St Helier Hospital,True,81de1add-2ce0-4540-be6d-4987323dc58d
+1127,2020-04-24 00:35:33,GB,The Royal Liverpool University Hospital,True,6d4865b9-0c2d-4670-aacd-24c41bbbbe44
+1128,2020-04-24 00:36:19,GB,St Helier Hospital,True,df1184c5-12a2-4d78-b770-31ac8e03fcda
+1129,2020-04-24 00:37:17,GB,Frimley Park Hospital,False,3f1214f6-40c5-4540-819d-66e775186ee6
+1130,2020-04-24 00:42:05,GB,Southampton General Hospital,True,43e58fe7-cf84-4097-9721-a14242bf110e
+1131,2020-04-24 00:47:05,GB,Royal Liverpool University Hospital,True,800013321
+1132,2020-04-24 00:51:15,GB,Royal Sussex County Hospital,True,13b70cd6-6ec9-4004-92df-8ce6e12a0f80
+1133,2020-04-24 00:51:19,GB,Royal Sussex County Hospital,True,13b70cd6-6ec9-4004-92df-8ce6e12a0f80
+1134,2020-04-24 00:52:31,GB,Basildon University Hospital,False,045d3f62-0412-4acb-bd85-16572478aac0
+1135,2020-04-24 00:57:55,GB,Barnet Hospital,False,28419

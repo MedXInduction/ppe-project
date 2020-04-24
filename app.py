@@ -11,17 +11,20 @@ import seaborn as sns
 import streamlit as st
 from folium.plugins import FastMarkerCluster
 
-import mixpanel as mp
+MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 
-DATA_LOCATION = './data/2304-ppe-survey.csv'
+
+def load_data():
+    return pd.read_csv(MERGED_DATA_LOCATION,
+                       index_col='time',
+                       parse_dates=['time'])
 
 
 def render_sidebar():
     st.sidebar.title("About PPE UK Live")
     st.sidebar.markdown(
-        """
-    An open data project by the team at [Induction Healthcare](https://induction-app.com)
-    """
+        """An open data project by the team at [Induction Healthcare](https://induction-app.com) examining regional 
+        clinician sentiment around their supply of PPE """
 
     )
 
@@ -31,8 +34,7 @@ def render_sidebar():
         "contribute comments, questions, and further analysis. "
 
         "For questions, access to the data, or  help with this project please feel free to contact us via "
-        "contact@induction-app.com. "
-
+        "contact@induction-app.com."
     )
 
     st.sidebar.subheader("PPE Projects")
@@ -50,7 +52,8 @@ def render_sidebar():
 def render_content_header():
     st.title("PPE UK Live")
     st.markdown(
-        """A public service project by the team behind the [Induction App](https://induction-app.com) and [Microguide](http://www.microguide.eu/)""")
+        """A public service project by the team behind the [Induction App](https://induction-app.com) and [
+        Microguide](http://www.microguide.eu/)""")
 
 
 def render_how_it_works():
@@ -73,84 +76,78 @@ def render_how_it_works():
              width=300)
 
 
-def render_initial_analysis():
-    st.header("Non-regional responses")
+def render_initial_analysis(data):
+    st.header("Analysis")
     st.markdown(
         """
-        While we continue to gather enough geographic data across the UK, we are happy to share our qualitative responses so far.
-        
         The following represents data gathered from UK clinicians since 1500 on 22nd April, 2020.
         
-        **Last updated: 24th April, 0830**
+        **Last updated: 24th April, 1100**
         """
     )
 
     st.subheader("Do you feel you and your team have enough PPE today?")
-    st.info("n = 1062")
+    scoped_data = data.copy(deep=True)
+    st.info("n = " + str(len(scoped_data)))
 
-    # static for the moment as MP not showing most recent events
+    sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == True]
+    insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == False]
+
     data = pd.DataFrame(
-        np.array([[785], [277]]),
-        columns=['total'],
+        np.array([[len(sufficient_supply_df)], [len(insufficient_supply_df)]]),
+        columns=['Total Responses'],
         index=['Yes', 'No']
     )
 
     st.bar_chart(data, use_container_width=True)
 
 
-    # data = pd.read_csv(DATA_LOCATION,
-    #                    index_col='hospital',
-    #                    usecols=['time', 'hospital', 'sufficient-supply', 'mp_country_code'],
-    #                    parse_dates=['time'])
-    # gb_data = data[data["mp_country_code"] == 'GB']
-    # st.dataframe(gb_data)
+def render_results_map(data):
 
+    scoped_data = data.copy(deep=True)
+    midpoint = (np.average(scoped_data["lat"]), np.average(scoped_data["lon"]))
 
+    sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == True]
+    insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == False]
 
+    st.subheader("Regional Demand")
 
-# def render_results_map():
-#     local_df = pd.read_csv(
-#         './data/directory-events.csv',
-#         index_col=0,
-#         usecols=['time', 'mp_country_code', '$city', '$region', 'hospital'],
-#         parse_dates=['time']
-#     )
-#
-#     gb_df = local_df[local_df["mp_country_code"] == 'GB']
-#     location_df = pd.read_csv('./data/hospital_locations.csv', index_col='address')
-#
-#     data = pd.merge(left=gb_df, how='left', right=location_df, left_on='hospital', right_on='hospital')
-#     data.set_index('time', inplace=True)
-#     midpoint = (np.average(data["lat"]), np.average(data["lon"]))
-#
-#     st.write(pdk.Deck(
-#         map_style="mapbox://styles/mapbox/light-v9",
-#         initial_view_state={
-#             "latitude": midpoint[0],
-#             "longitude": midpoint[1],
-#             "zoom": 6,
-#             "pitch": 35,
-#         },
-#         layers=[
-#             pdk.Layer(
-#                 "HexagonLayer",
-#                 data=location_df,
-#                 get_position=["lon", "lat"],
-#                 radius=2000,
-#                 elevation_scale=300,
-#                 elevation_range=[0, 700],
-#                 pickable=True,
-#                 extruded=True,
-#             ),
-#         ],
-#     ))
+    st.markdown(
+        """
+        This map shows areas in the UK where frontline staff are reporting that they feel they do not have 
+        sufficient PPE supply. The taller the spike, the more demand is being reported in that region.
+        
+        **Last updated: 24th April, 1100**
+    """)
+
+    st.write(pdk.Deck(
+        map_style="mapbox://styles/mapbox/light-v10",
+        initial_view_state={
+            "latitude": midpoint[0],
+            "longitude": midpoint[1],
+            "zoom": 6,
+            "pitch": 40,
+        },
+        layers=[
+            pdk.Layer(
+                "HexagonLayer",
+                data=insufficient_supply_df,
+                get_position=["lon", "lat"],
+                elevation_scale=50,
+                pickable=True,
+                extruded=True,
+                coverage=1
+            ),
+        ],
+    ))
 
 
 def main():
+    data = load_data()
     render_sidebar()
     render_content_header()
-    render_initial_analysis()
-    # render_results_map()
+    render_results_map(data)
+    render_initial_analysis(data)
     render_how_it_works()
 
 
