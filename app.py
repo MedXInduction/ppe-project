@@ -41,7 +41,7 @@ def render_sidebar():
             While we prepare to launch our data analysis please checkout these great PPE projects:
         
             * [Frontline Map](http://frontline.live/)
-            * [The Need](https://www.thenead.co.uk/)
+            * [The Nead](https://www.thenead.co.uk/)
             * [Donate your PPE](https://www.donateyourppe.uk/)
         """
     )
@@ -81,16 +81,16 @@ def render_initial_analysis():
         
         The following represents data gathered from UK clinicians since 1500 on 22nd April, 2020.
         
-        **Last updated: 23rd April, 1735**
+        **Last updated: 24th April, 0830**
         """
     )
 
     st.subheader("Do you feel you and your team have enough PPE today?")
-    st.info("n = 895")
+    st.info("n = 1062")
 
     # static for the moment as MP not showing most recent events
     data = pd.DataFrame(
-        np.array([[660], [235]]),
+        np.array([[785], [277]]),
         columns=['total'],
         index=['Yes', 'No']
     )
