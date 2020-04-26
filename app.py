@@ -82,7 +82,7 @@ def render_initial_analysis(data):
         """
         The following represents data gathered from UK clinicians since 1500 on 22nd April, 2020.
         
-        **Last updated: 24th April, 1100**
+        **Last updated: 26th April, 2120**
         """
     )
 
@@ -117,7 +117,7 @@ def render_results_map(data):
         This map shows areas in the UK where frontline staff are reporting that they feel they do not have 
         sufficient PPE supply. The taller the spike, the more demand is being reported in that region.
         
-        **Last updated: 24th April, 1100**
+        **Last updated: 26th April, 2120**
     """)
 
     st.write(pdk.Deck(
@@ -134,7 +134,7 @@ def render_results_map(data):
                 data=insufficient_supply_df,
                 get_position=["lon", "lat"],
                 elevation_scale=50,
-                pickable=True,
+                pickable=False,
                 extruded=True,
                 coverage=1
             ),
