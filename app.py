@@ -1,19 +1,13 @@
 import os
-import time
-
-import altair as alt
-import folium
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import pydeck as pdk
-import seaborn as sns
 import streamlit as st
-from folium.plugins import FastMarkerCluster
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
+MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
 
-
+@st.cache()
 def load_data():
     return pd.read_csv(MERGED_DATA_LOCATION,
                        index_col='time',
@@ -21,13 +15,6 @@ def load_data():
 
 
 def render_sidebar():
-    st.sidebar.title("About PPE UK Live")
-    st.sidebar.markdown(
-        """An open data project by the team at [Induction Healthcare](https://induction-app.com) examining regional 
-        clinician sentiment around their supply of PPE """
-
-    )
-
     st.sidebar.subheader("Contact")
     st.sidebar.info(
         "This is an [open source project](https://github.com/MedXInduction/ppe-project) and you are very welcome to "
@@ -52,8 +39,10 @@ def render_sidebar():
 def render_content_header():
     st.title("PPE UK Live")
     st.markdown(
-        """A public service project by the team behind the [Induction App](https://induction-app.com) and [
-        Microguide](http://www.microguide.eu/)""")
+        """An open data project by the team at [Induction Healthcare](https://induction-app.com) and [
+        Microguide](http://www.microguide.eu/) examining regional clinician sentiment around current supply of PPE 
+        """
+    )
 
 
 def render_how_it_works():
@@ -77,7 +66,7 @@ def render_how_it_works():
 
 
 def render_initial_analysis(data):
-    st.header("Analysis")
+    st.header("UK PPE Supply Responses")
     st.markdown(
         """
         The following represents data gathered from UK clinicians since 1500 on 22nd April, 2020.
@@ -102,15 +91,15 @@ def render_initial_analysis(data):
     st.bar_chart(data, use_container_width=True)
 
 
+# @st.cache(persist=True, suppress_st_warning=True)
 def render_results_map(data):
-
     scoped_data = data.copy(deep=True)
     midpoint = (np.average(scoped_data["lat"]), np.average(scoped_data["lon"]))
 
-    sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == True]
-    insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == False]
+    sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 1]
+    insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 0]
 
-    st.subheader("Regional Demand")
+    st.header("PPE UK Demand Heatmap")
 
     st.markdown(
         """
@@ -119,13 +108,15 @@ def render_results_map(data):
         
         **Last updated: 26th April, 2120**
     """)
+    st.info("Number reporting insufficient supply (n) = " + str(len(insufficient_supply_df)))
 
-    st.write(pdk.Deck(
-        map_style="mapbox://styles/mapbox/light-v10",
+    st.pydeck_chart(pdk.Deck(
+        map_style="mapbox://styles/mapbox/light-v9",
+        mapbox_key=MAPBOX_API_KEY,
         initial_view_state={
             "latitude": midpoint[0],
             "longitude": midpoint[1],
-            "zoom": 6,
+            "zoom": 5.8,
             "pitch": 40,
         },
         layers=[
@@ -134,10 +125,12 @@ def render_results_map(data):
                 data=insufficient_supply_df,
                 get_position=["lon", "lat"],
                 elevation_scale=50,
-                pickable=False,
+                pickable=True,
                 extruded=True,
-                coverage=1
-            ),
+                coverage=0.8,
+                auto_highlight=True,
+                radius=2000
+            )
         ],
     ))
 
@@ -146,8 +139,8 @@ def main():
     data = load_data()
     render_sidebar()
     render_content_header()
-    render_results_map(data)
     render_initial_analysis(data)
+    render_results_map(data)
     render_how_it_works()
 
 
