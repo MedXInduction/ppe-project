@@ -115,6 +115,11 @@ def render_results_map(data):
     """)
     st.info("Number reporting insufficient supply (n) = " + str(len(insufficient_supply_df)))
 
+    if st.checkbox('Filter by day'):
+        day_to_filter = st.slider('Day of the month (April)', 22, 26, 26)  # min: 0h, max: 23h, default: 17h
+        insufficient_supply_df = insufficient_supply_df[insufficient_supply_df.index.day == day_to_filter]
+        st.subheader(f'Insufficient demand sentiment on {day_to_filter} April')
+
     st.pydeck_chart(pdk.Deck(
         map_style="mapbox://styles/mapbox/light-v9",
         mapbox_key=MAPBOX_API_KEY,
