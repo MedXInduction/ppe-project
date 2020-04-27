@@ -3,10 +3,14 @@ import numpy as np
 import pandas as pd
 import pydeck as pdk
 import streamlit as st
+import seaborn as sns
+
+sns.set(style="whitegrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
 LAST_UPDATE = '12th April, 1200'
+
 
 @st.cache()
 def load_data():
@@ -136,11 +140,22 @@ def render_results_map(data):
     ))
 
 
+def render_supply_over_time(data):
+    st.subheader('Trend in PPE supply over time')
+    st.write("This graph shows the proportion of clinicians reporting sufficient PPE supply since data gathering "
+             "started on 22nd April.")
+    local_data = data.copy()
+    ax = sns.barplot(x='day', y='sufficient-supply', data=local_data)
+    ax.set(xlabel='April', ylabel='Proportion of clinicians with sufficient supply')
+    st.pyplot()
+
+
 def main():
     data = load_data()
     render_sidebar()
     render_content_header()
     render_initial_analysis(data)
+    render_supply_over_time(data)
     render_results_map(data)
     render_how_it_works()
 
