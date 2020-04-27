@@ -6,6 +6,7 @@ import streamlit as st
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
+LAST_UPDATE = '12th April, 1200'
 
 @st.cache()
 def load_data():
@@ -71,7 +72,7 @@ def render_initial_analysis(data):
         """
         The following represents data gathered from UK clinicians since 1500 on 22nd April, 2020.
         
-        **Last updated: 26th April, 2120**
+        **Last updated: 27th April, 1200**
         """
     )
 
@@ -99,14 +100,14 @@ def render_results_map(data):
     sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 1]
     insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 0]
 
-    st.header("PPE UK Demand Heatmap")
+    st.header("PPE UK Demand Heat Map")
 
     st.markdown(
         """
         This map shows areas in the UK where frontline staff are reporting that they feel they do not have 
         sufficient PPE supply. The taller the spike, the more demand is being reported in that region.
         
-        **Last updated: 26th April, 2120**
+        **Last updated: 27th April, 1200**
     """)
     st.info("Number reporting insufficient supply (n) = " + str(len(insufficient_supply_df)))
 
