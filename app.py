@@ -9,7 +9,7 @@ sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '12th April, 1200'
+LAST_UPDATE = '28th April, 1500'
 
 
 @st.cache()
@@ -76,7 +76,7 @@ def render_initial_analysis(data):
         """
         The following represents data gathered from UK clinicians since 1500 on 22nd April, 2020.
         
-        **Last updated: 27th April, 1200**
+        **Last updated: 28th April, 1500**
         """
     )
 
@@ -108,17 +108,19 @@ def render_results_map(data):
 
     st.markdown(
         """
-        This map shows areas in the UK where frontline staff are reporting that they feel they do not have 
+        This map shows areas in the UK where Frontline healthcare workers are reporting that they feel they do not have 
         sufficient PPE supply. The taller the spike, the more demand is being reported in that region.
         
-        **Last updated: 27th April, 1200**
+        The data is cumulative since the 22nd April, however you can view daily data using the filter below.
+        
+        **Last updated: 28th April, 1500**
     """)
-    st.info("Number reporting insufficient supply (n) = " + str(len(insufficient_supply_df)))
+    st.info("Number reporting insufficient PPE supply (n) = " + str(len(insufficient_supply_df)))
 
     if st.checkbox('Filter by day'):
         day_to_filter = st.slider('Day of the month (April)', 23, 27, 27)  # min: 0h, max: 23h, default: 17h
         insufficient_supply_df = insufficient_supply_df[insufficient_supply_df.index.day == day_to_filter]
-        st.subheader(f'Insufficient demand sentiment on {day_to_filter} April')
+        st.subheader(f'PPE supply sentiment on {day_to_filter} April')
 
     st.pydeck_chart(pdk.Deck(
         map_style="mapbox://styles/mapbox/light-v9",
@@ -137,9 +139,9 @@ def render_results_map(data):
                 elevation_scale=50,
                 pickable=True,
                 extruded=True,
-                coverage=0.8,
+                coverage=1,
                 auto_highlight=True,
-                radius=2000
+                radius=2500
             )
         ],
     ))
