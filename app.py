@@ -5,7 +5,7 @@ import pydeck as pdk
 import streamlit as st
 import seaborn as sns
 
-sns.set(style="whitegrid")
+sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
@@ -116,7 +116,7 @@ def render_results_map(data):
     st.info("Number reporting insufficient supply (n) = " + str(len(insufficient_supply_df)))
 
     if st.checkbox('Filter by day'):
-        day_to_filter = st.slider('Day of the month (April)', 22, 26, 26)  # min: 0h, max: 23h, default: 17h
+        day_to_filter = st.slider('Day of the month (April)', 23, 27, 27)  # min: 0h, max: 23h, default: 17h
         insufficient_supply_df = insufficient_supply_df[insufficient_supply_df.index.day == day_to_filter]
         st.subheader(f'Insufficient demand sentiment on {day_to_filter} April')
 
@@ -146,12 +146,24 @@ def render_results_map(data):
 
 
 def render_supply_over_time(data):
+    copy = data.copy()
+    by_daily_supply = copy.groupby(['day', 'sufficient-supply']).size().unstack().reset_index()
+    by_daily_supply['total'] = (by_daily_supply[True]) + (by_daily_supply[False])
+    by_daily_supply['proportion'] = (by_daily_supply[False] / by_daily_supply['total']) * 100
+
     st.subheader('Trend in PPE supply over time')
     st.write("This graph shows the proportion of clinicians reporting sufficient PPE supply since data gathering "
              "started on 22nd April.")
-    local_data = data.copy()
-    ax = sns.barplot(x='day', y='sufficient-supply', data=local_data)
+    st.info(f"Average number of clinicians reporting per day: {round(by_daily_supply['total'].mean())}")
+
+    ax = sns.barplot(x='day', y='sufficient-supply', data=copy)
     ax.set(xlabel='April', ylabel='Proportion of clinicians with sufficient supply')
+    st.pyplot()
+
+    st.write("Trend in percentage of Frontline NHS Workers reporting negative sentiment around PPE supply")
+
+    ax = sns.lineplot(x="day", y='proportion', data=by_daily_supply)
+    ax.set(xlabel='April', ylabel='% clinicians reporting inadequate supply', ylim=(0, 100))
     st.pyplot()
 
 
