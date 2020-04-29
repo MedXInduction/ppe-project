@@ -9,7 +9,7 @@ sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '28th April, 1500'
+LAST_UPDATE = '29th April, 1115'
 
 
 @st.cache()
@@ -25,14 +25,14 @@ def render_sidebar():
         "This is an [open source project](https://github.com/MedXInduction/ppe-project) and you are very welcome to "
         "contribute comments, questions, and further analysis. "
 
-        "For questions, access to the data, or  help with this project please feel free to contact us via "
-        "contact@induction-app.com."
+        "For questions, access to the data, or  help with this project please feel free to contact the project lead, "
+        "Dr Ed Wallitt via ed.w@inductionhealthcare.com "
     )
 
     st.sidebar.subheader("PPE Projects")
     st.sidebar.markdown(
         """
-            While we prepare to launch our data analysis please checkout these great PPE projects:
+            Be sure to check these great project as well:
         
             * [Frontline Map](http://frontline.live/)
             * [The Nead](https://www.thenead.co.uk/)
@@ -43,25 +43,40 @@ def render_sidebar():
 
 def render_content_header():
     st.title("PPE UK Live")
+    st.subheader("Last updated: " + LAST_UPDATE)
     st.markdown(
-        """An open data project by the team at [Induction Healthcare](https://induction-app.com) and [
+        """
+        An open data project by the team at [Induction Healthcare](https://induction-app.com) and [
         Microguide](http://www.microguide.eu/) examining regional clinician sentiment around current supply of PPE 
+        
+        One of the best ways of tracking PPE availability is daily measuring of PPE sentiment - how do they and 
+        their team feel about the supply of PPE that is available to them?
+        
+        Since the 22nd April we have been asking a simple question to our 40,000 weekly users:
+        
         """
     )
+
+    st.info("Do you feel you and your team have enough PPE today?")
 
 
 def render_how_it_works():
     st.header("How it works?")
     st.markdown(
         """
-    Induction Healthcare provides over 150,000 frontline healthcare professionals with the resources and tools to support their work.
+    Induction Healthcare provides over 150,000 Frontline Healthcare Professionals with the resources and tools 
+        to support their work. 
 
-    *Personal Protective Equipment* (PPE from now on) includes masks, gloves and other clothing that must be worn by healthcare professionals working with infected patients. 
-    It is requirement for them to work safely and to protect the workforce and their families ([What is PPE?](https://www.bbc.co.uk/news/health-52254745))
+    Personal Protective Equipment (PPE from now on) includes masks, gloves and other clothing that must be worn by 
+    healthcare professionals working with infected patients. It is requirement for them to work safely and to protect 
+    the workforce and their families ([What is PPE?](https://www.bbc.co.uk/news/health-52254745)) 
 
-    From 22nd April we started collecting and sharing anonymous contributions about the real-time regional availability of PPE direct from users of the Induction app.
+    Since the 22nd April we have started collecting and sharing anonymous daily contributions measuring regional 
+    clinician PPE sentiment. 
 
-    **NOTE: this data represents the personal feelings of individual frontline clinicians about the availability of PPE within their team. It does not directly measure supply**
+    **NOTE: this data represents the personal feelings/sentiment of individual Frontline UK Clinicians about the 
+    availability and accessibility of PPE within their team. It does not directly measure supply** 
+    
     """
     )
 
@@ -72,14 +87,6 @@ def render_how_it_works():
 
 def render_initial_analysis(data):
     st.header("UK PPE Supply Responses")
-    st.markdown(
-        """
-        The following represents data gathered from UK clinicians since 1500 on 22nd April, 2020.
-        
-        **Last updated: 28th April, 1500**
-        """
-    )
-
     st.subheader("Do you feel you and your team have enough PPE today?")
     scoped_data = data.copy(deep=True)
     st.info("n = " + str(len(scoped_data)))
@@ -104,16 +111,14 @@ def render_results_map(data):
     sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 1]
     insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 0]
 
-    st.header("PPE UK Demand Heat Map")
+    st.header("PPE Negative Sentiment Map")
 
     st.markdown(
         """
-        This map shows areas in the UK where Frontline healthcare workers are reporting that they feel they do not have 
-        sufficient PPE supply. The taller the spike, the more demand is being reported in that region.
+        This map shows areas in the UK where Frontline Healthcare Workers are reporting that they feel they do not have 
+        sufficient access to PPE. The taller the spike, the more demand is being reported in that region.
         
         The data is cumulative since the 22nd April, however you can view daily data using the filter below.
-        
-        **Last updated: 28th April, 1500**
     """)
     st.info("Number reporting insufficient PPE supply (n) = " + str(len(insufficient_supply_df)))
 
@@ -159,13 +164,20 @@ def render_supply_over_time(data):
     st.info(f"Average number of clinicians reporting per day: {round(by_daily_supply['total'].mean())}")
 
     ax = sns.barplot(x='day', y='sufficient-supply', data=copy)
-    ax.set(xlabel='April', ylabel='Proportion of clinicians with sufficient supply')
+    ax.set(xlabel='April', ylabel='Proportion of clinicians with sufficient supply',
+           title='Positive / Negative Sentiment')
     st.pyplot()
 
-    st.write("Trend in percentage of Frontline NHS Workers reporting negative sentiment around PPE supply")
-
     ax = sns.lineplot(x="day", y='proportion', data=by_daily_supply)
-    ax.set(xlabel='April', ylabel='% clinicians reporting inadequate supply', ylim=(0, 100))
+    ax.set(
+        xlabel='April',
+        ylabel='Percentage Reporting Insufficient Supply',
+        ylim=(0, 100),
+        title='Daily Trend in % '
+              'Clinicians '
+              'reporting '
+              'insufficient '
+              'supply')
     st.pyplot()
 
 
