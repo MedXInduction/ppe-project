@@ -9,7 +9,7 @@ sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '30th April, 0900'
+LAST_UPDATE = '1st May, 1120'
 
 
 @st.cache()
@@ -42,7 +42,8 @@ def render_sidebar():
 
 
 def render_content_header():
-    st.title("PPE UK Live")
+    st.title("The Sentiment of UK Clinicians on Personal Protective Equipment Supply in April and May 2020 ")
+    st.markdown("""***Author***: *Dr Ed Wallitt (Chief Product Officer at Induction Healthcare Group*""")
     st.subheader("Last updated: " + LAST_UPDATE)
     st.markdown(
         """
@@ -123,7 +124,7 @@ def render_results_map(data):
     st.info("Number reporting insufficient PPE supply (n) = " + str(len(insufficient_supply_df)))
 
     if st.checkbox('Filter by day'):
-        day_to_filter = st.slider('Day of the month (April)', 23, 27, 27)  # min: 0h, max: 23h, default: 17h
+        day_to_filter = st.slider('Day of the month (April to May)', 23, 30, 30)  # min: 0h, max: 23h, default: 17h
         insufficient_supply_df = insufficient_supply_df[insufficient_supply_df.index.day == day_to_filter]
         st.subheader(f'PPE supply sentiment on {day_to_filter} April')
 
@@ -154,23 +155,17 @@ def render_results_map(data):
 
 def render_supply_over_time(data):
     copy = data.copy()
-    by_daily_supply = copy.groupby(['day', 'sufficient-supply']).size().unstack().reset_index()
+    by_daily_supply = copy.groupby(['day_month', 'sufficient-supply']).size().unstack().reset_index()
     by_daily_supply['total'] = (by_daily_supply[True]) + (by_daily_supply[False])
     by_daily_supply['proportion'] = (by_daily_supply[False] / by_daily_supply['total']) * 100
 
-    st.subheader('Trend in PPE supply over time')
-    st.write("This graph shows the proportion of clinicians reporting sufficient PPE supply since data gathering "
-             "started on 22nd April.")
+    st.subheader('Trend in PPE sentiment over time')
+
     st.info(f"Average number of clinicians reporting per day: {round(by_daily_supply['total'].mean())}")
 
-    ax = sns.barplot(x='day', y='sufficient-supply', data=copy)
-    ax.set(xlabel='April', ylabel='Proportion of clinicians with sufficient supply',
-           title='Positive / Negative Sentiment')
-    st.pyplot()
-
-    ax = sns.lineplot(x="day", y='proportion', data=by_daily_supply)
+    ax = sns.lineplot(x="day_month", y='proportion', data=by_daily_supply)
     ax.set(
-        xlabel='April',
+        xlabel='',
         ylabel='Percentage Reporting Insufficient Supply',
         ylim=(0, 100),
         title='Daily Trend in % '
@@ -178,9 +173,8 @@ def render_supply_over_time(data):
               'reporting '
               'insufficient '
               'supply')
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=90)
     st.pyplot()
-
-
 def main():
     data = load_data()
     render_sidebar()
