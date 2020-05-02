@@ -9,7 +9,7 @@ sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '1st May, 1120'
+LAST_UPDATE = '2nd May, 2300'
 
 
 @st.cache()
@@ -21,15 +21,18 @@ def load_data():
 
 def render_sidebar():
     st.sidebar.subheader("Contact")
-    st.sidebar.info(
-        "This is an [open source project](https://github.com/MedXInduction/ppe-project) and you are very welcome to "
-        "contribute comments, questions, and further analysis. "
+    st.sidebar.warning(
+        """
+        This is an [open source project](https://github.com/MedXInduction/ppe-project) and you are very welcome to
+        contribute comments, questions, and further analysis.
+        
+        Anonymised data is contained within the code repository.
 
-        "For questions, access to the data, or  help with this project please feel free to contact the project lead, "
-        "Dr Ed Wallitt via ed.w@inductionhealthcare.com "
+        For queries about this project please contact the project lead, Dr Ed Wallitt via ed.w@inductionhealthcare.com
+        """
     )
 
-    st.sidebar.subheader("PPE Projects")
+    st.sidebar.subheader("Other PPE Projects")
     st.sidebar.markdown(
         """
             Be sure to check these great project as well:
@@ -43,7 +46,7 @@ def render_sidebar():
 
 def render_content_header():
     st.title("The Sentiment of UK Clinicians on Personal Protective Equipment Supply in April and May 2020 ")
-    st.markdown("""***Author***: *Dr Ed Wallitt (Chief Product Officer at Induction Healthcare Group*""")
+    st.markdown("""*Dr Ed Wallitt (Chief Product Officer at Induction Healthcare Group*""")
     st.subheader("Last updated: " + LAST_UPDATE)
     st.markdown(
         """
@@ -82,7 +85,7 @@ def render_how_it_works():
     )
 
     st.image("./static/images/device-preview.png",
-             caption="In-app data collection",
+             caption="Method of data collection",
              width=300)
 
 
@@ -121,12 +124,12 @@ def render_results_map(data):
         
         The data is cumulative since the 22nd April, however you can view daily data using the filter below.
     """)
-    st.info("Number reporting insufficient PPE supply (n) = " + str(len(insufficient_supply_df)))
+    st.success("Number reporting insufficient PPE supply sentiment (N) = " + str(len(insufficient_supply_df)) + "  (Total: " + str(len(scoped_data)) + ")")
 
     if st.checkbox('Filter by day'):
-        day_to_filter = st.slider('Day of the month (April to May)', 23, 30, 30)  # min: 0h, max: 23h, default: 17h
-        insufficient_supply_df = insufficient_supply_df[insufficient_supply_df.index.day == day_to_filter]
-        st.subheader(f'PPE supply sentiment on {day_to_filter} April')
+        day_to_filter = st.date_input('Date')
+        insufficient_supply_df = insufficient_supply_df[insufficient_supply_df.index.date == day_to_filter]
+        st.subheader(f'PPE supply sentiment on {day_to_filter}')
 
     st.pydeck_chart(pdk.Deck(
         map_style="mapbox://styles/mapbox/light-v9",
@@ -134,20 +137,22 @@ def render_results_map(data):
         initial_view_state={
             "latitude": midpoint[0],
             "longitude": midpoint[1],
-            "zoom": 5.8,
+            "zoom": 5.3,
             "pitch": 40,
+            "bearing": -22.1,
+            "elevation_scale": 6
         },
         layers=[
             pdk.Layer(
                 "HexagonLayer",
                 data=insufficient_supply_df,
                 get_position=["lon", "lat"],
-                elevation_scale=50,
+                elevation_scale=60,
                 pickable=True,
                 extruded=True,
-                coverage=1,
+                coverage=0.8,
                 auto_highlight=True,
-                radius=2500
+                radius=1500
             )
         ],
     ))

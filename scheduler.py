@@ -12,9 +12,10 @@ keys = (MIXPANEL_API_KEY, MIXPANEL_API_SECRET)
 
 DATA_LOCATION = './data/ppe-responses.csv'
 HOSPITALS_LOCATION = './data/hospital_locations.csv'
+HOSPITAL_NEW_LOCATIONS = './data/new_hospital_locations.csv'
 FINAL_LOCATION = './data/ppe-merged-responses.csv'
 START_DATE = '22 April, 2020'
-REFRESH_EVENTS = False
+REFRESH_EVENTS = True
 REFRESH_LOCATIONS = False
 
 
@@ -44,7 +45,7 @@ def geocode_hospital_list(dataframe):
             hospital_df['lat'][x] = hospital_df['location'][x][0]
             hospital_df['lon'][x] = hospital_df['location'][x][1]
 
-    hospital_df.to_csv(HOSPITALS_LOCATION)
+    hospital_df.to_csv(HOSPITAL_NEW_LOCATIONS)
     return hospital_df
 
 
@@ -125,12 +126,12 @@ def main():
         geocoded_hospitals_df = pd.read_csv(HOSPITALS_LOCATION, index_col='address')
 
     # inner merge between the tables
-    merged_df = pd.merge(left=local_df, how='left', right=geocoded_hospitals_df, left_on='hospital',
-                         right_on='hospital')
-    merged_df.set_index('time', inplace=True)
+    # merged_df = pd.merge(left=local_df, how='left', right=geocoded_hospitals_df, left_on='hospital',
+    #                      right_on='hospital')
+    # merged_df.set_index('time', inplace=True)
 
     # save the merged data back to a csv
-    merged_df.to_csv(FINAL_LOCATION)
+    # merged_df.to_csv(FINAL_LOCATION)
 
 
 if __name__ == "__main__":
