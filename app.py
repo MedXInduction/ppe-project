@@ -9,7 +9,7 @@ sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '4th May, 0130'
+LAST_UPDATE = '4th May, 1640'
 
 
 @st.cache()
@@ -23,7 +23,13 @@ def render_sidebar():
     st.sidebar.subheader("Contact")
     st.sidebar.warning(
         """
-        This is an [open source project](https://github.com/MedXInduction/ppe-project) and you are very welcome to
+        This project is produced without any agenda, and the author(s) are not seeking to test any 
+        null or non-null hypothesis through collection or publication. 
+        
+        All interpretation of the results belong to the group performing an analysis, not the author of this paper or
+         of Induction Healthcare Group PLC. 
+        
+        This is an [open source project](https://github.com/MedXInduction/ppe-project), and researchers are very welcome to
         contribute comments, questions, and further analysis.
         
         Anonymised data is contained within the code repository.
@@ -35,7 +41,7 @@ def render_sidebar():
     st.sidebar.subheader("Other PPE Projects")
     st.sidebar.markdown(
         """
-            Be sure to check these great project as well:
+            More interesting projects on UK PPE availability/sentiment
         
             * [Frontline Map](http://frontline.live/)
             * [The Nead](https://www.thenead.co.uk/)
@@ -46,7 +52,7 @@ def render_sidebar():
 
 def render_content_header():
     st.title("The Sentiment of UK Clinicians on Personal Protective Equipment Supply in April and May 2020 ")
-    st.markdown("""*Dr Ed Wallitt (Chief Product Officer at Induction Healthcare Group*""")
+    st.markdown("""*Dr Ed Wallitt - Chief Product Officer at Induction Healthcare Group*""")
     st.subheader("Last updated: " + LAST_UPDATE)
     st.markdown(
         """
@@ -90,7 +96,7 @@ def render_how_it_works():
 
 
 def render_initial_analysis(data):
-    st.header("UK PPE Supply Responses")
+    st.header("UK PPE Supply Sentiment Responses")
     st.subheader("Do you feel you and your team have enough PPE today?")
     scoped_data = data.copy(deep=True)
     st.info("n = " + str(len(scoped_data)))
@@ -120,10 +126,12 @@ def render_results_map(data):
     st.markdown(
         """
         This map shows areas in the UK where Frontline Healthcare Workers are reporting that they feel they do not have 
-        sufficient access to PPE. The taller the spike, the more demand is being reported in that region.
+        sufficient access to PPE. The taller the spike, the more negative the sentiment cumulatively reported in that region.
         
-        The data is cumulative since the 22nd April, however you can view daily data using the filter below.
-    """)
+        NOTE: This data is cumulative, and shows total since collection started on the 22nd April. If you wish to 
+        filter by day you can enter a date belowl.
+        """
+        )
     st.success("Number reporting insufficient PPE supply sentiment (N) = " + str(len(insufficient_supply_df)) + "  (Total: " + str(len(scoped_data)) + ")")
 
     if st.checkbox('Filter by day'):
@@ -170,22 +178,34 @@ def render_supply_over_time(data):
 
     ax = sns.lineplot(x="day_month", y='proportion', data=by_daily_supply)
     ax.set(
-        xlabel='',
+        xlabel='22nd April to 3rd May 2020',
         ylabel='Percentage Reporting Insufficient Supply',
         ylim=(0, 100),
         title='Daily Trend in % '
               'Clinicians '
               'reporting '
-              'insufficient '
-              'supply')
+              'negative PPE '
+              'supply '
+              'sentiment')
     ax.set_xticklabels(ax.get_xticklabels(), rotation=90)
     st.pyplot()
+
+def render_worst_performers():
+    st.header('Locations of PPE Negative Sentiment')
+    st.markdown(
+        """
+        This figure shows in ascending order the bottom 170 hospital were positive sentiment towards PPE supply is being reported.
+        """
+    )
+    st.image('./static/images/negative_sentiment_performers.png', caption='Cumulative % Positive PPE Sentiment by Hospital Descending (n = 170)', use_column_width=True)
+
 def main():
     data = load_data()
     render_sidebar()
     render_content_header()
     render_initial_analysis(data)
     render_supply_over_time(data)
+    render_worst_performers()
     render_results_map(data)
     render_how_it_works()
 
