@@ -9,7 +9,7 @@ sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '4th May, 1640'
+LAST_UPDATE = '5th May, 0845'
 
 
 @st.cache()
@@ -20,13 +20,13 @@ def load_data():
 
 
 def render_sidebar():
-    st.sidebar.subheader("Contact")
+    st.sidebar.subheader("About This Project")
     st.sidebar.warning(
         """
         This project is produced without any agenda, and the author(s) are not seeking to test any 
-        null or non-null hypothesis through collection or publication. 
+        null or non-null hypothesis through the collection and publication of this data. 
         
-        All interpretation of the results belong to the group performing an analysis, not the author of this paper or
+        All interpretation of the results belong to the group performing an analysis, not the author(s) of this paper or
          of Induction Healthcare Group PLC. 
         
         This is an [open source project](https://github.com/MedXInduction/ppe-project), and researchers are very welcome to
@@ -54,13 +54,15 @@ def render_content_header():
     st.title("The Sentiment of UK Clinicians on Personal Protective Equipment Supply in April and May 2020 ")
     st.markdown("""*Dr Ed Wallitt - Chief Product Officer at Induction Healthcare Group*""")
     st.subheader("Last updated: " + LAST_UPDATE)
+    st.warning("NEW: A more detailed data exploration is now available at "
+               "https://exploratory.io/dashboard/CNw7BmT9hR/Frontline-PPE-Supply-Sentiment-AgF3AlA5zg")
     st.markdown(
         """
         An open data project by the team at [Induction Healthcare](https://induction-app.com) and [
-        Microguide](http://www.microguide.eu/) examining regional clinician sentiment around current supply of PPE 
+        Microguide](http://www.microguide.eu/) examining regional daily clinician sentiment around PPE supply 
         
-        One of the best ways of tracking PPE availability is daily measuring of PPE sentiment - how do they and 
-        their team feel about the supply of PPE that is available to them?
+        One of the best ways of tracking PPE availability is daily measuring of PPE sentiment - how do individual clinicians and 
+        their team(s) feel about the supply of PPE that is available to them on any given day?
         
         Since the 22nd April we have been asking a simple question to our 40,000 weekly users:
         
@@ -121,18 +123,18 @@ def render_results_map(data):
     sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 1]
     insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 0]
 
-    st.header("PPE Negative Sentiment Map")
+    st.header("PPE Supply Sentiment Map")
 
     st.markdown(
         """
-        This map shows areas in the UK where Frontline Healthcare Workers are reporting that they feel they do not have 
+        This map shows areas in the UK where Frontline Healthcare Workers are reporting that they feel they do NOT have 
         sufficient access to PPE. The taller the spike, the more negative the sentiment cumulatively reported in that region.
         
         NOTE: This data is cumulative, and shows total since collection started on the 22nd April. If you wish to 
-        filter by day you can enter a date belowl.
+        filter by day you can enter a date below.
         """
         )
-    st.success("Number reporting insufficient PPE supply sentiment (N) = " + str(len(insufficient_supply_df)) + "  (Total: " + str(len(scoped_data)) + ")")
+    st.success("Number reporting negative PPE sentiment (N) = " + str(len(insufficient_supply_df)) + "  (Total: " + str(len(scoped_data)) + ")")
 
     if st.checkbox('Filter by day'):
         day_to_filter = st.date_input('Date')
@@ -170,28 +172,33 @@ def render_supply_over_time(data):
     copy = data.copy()
     by_daily_supply = copy.groupby(['day_month', 'sufficient-supply']).size().unstack().reset_index()
     by_daily_supply['total'] = (by_daily_supply[True]) + (by_daily_supply[False])
-    by_daily_supply['proportion'] = (by_daily_supply[False] / by_daily_supply['total']) * 100
+    by_daily_supply['proportion-negative'] = (by_daily_supply[False] / by_daily_supply['total']) * 100
+    by_daily_supply['proportion-positive'] = (by_daily_supply[True] / by_daily_supply['total']) * 100
 
     st.subheader('Trend in PPE sentiment over time')
 
     st.info(f"Average number of clinicians reporting per day: {round(by_daily_supply['total'].mean())}")
 
-    ax = sns.lineplot(x="day_month", y='proportion', data=by_daily_supply)
+    ax = sns.lineplot(x="day_month", y='proportion-negative', data=by_daily_supply)
+    ax = sns.lineplot(x="day_month", y='proportion-positive', data=by_daily_supply)
     ax.set(
-        xlabel='22nd April to 3rd May 2020',
-        ylabel='Percentage Reporting Insufficient Supply',
+        xlabel='22nd April to ' + LAST_UPDATE.split(',')[0],
+        ylabel='Cumulative Average Sentiment',
         ylim=(0, 100),
-        title='Daily Trend in % '
-              'Clinicians '
+        title='Clinicians '
               'reporting '
-              'negative PPE '
+              'positive and negative PPE '
               'supply '
               'sentiment')
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=90)
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
     st.pyplot()
 
+    if st.checkbox('View raw data'):
+        st.table(by_daily_supply)
+
+
 def render_worst_performers():
-    st.header('Locations of PPE Negative Sentiment')
+    st.header('Locations of PPE Sentiment Descending')
     st.markdown(
         """
         This figure shows in ascending order the bottom 170 hospital were positive sentiment towards PPE supply is being reported.
