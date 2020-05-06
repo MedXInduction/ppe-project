@@ -9,7 +9,7 @@ sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '5th May, 0845'
+LAST_UPDATE = '6th May, 0900'
 
 
 @st.cache()
@@ -127,45 +127,52 @@ def render_results_map(data):
 
     st.markdown(
         """
-        This map shows areas in the UK where Frontline Healthcare Workers are reporting that they feel they do NOT have 
-        sufficient access to PPE. The taller the spike, the more negative the sentiment cumulatively reported in that region.
-        
+        In this map each dot shows a hospital site. The darker the color, the more negative the 
+        sentiment around PPE supply is, the lighter the  color the more positive. The larger the dot the more responses we have received from that location i.e. the 
+        more confidence we can have in the shade of color.
+
         NOTE: This data is cumulative, and shows total since collection started on the 22nd April. If you wish to 
         filter by day you can enter a date below.
         """
-        )
-    st.success("Number reporting negative PPE sentiment (N) = " + str(len(insufficient_supply_df)) + "  (Total: " + str(len(scoped_data)) + ")")
+    )
 
-    if st.checkbox('Filter by day'):
-        day_to_filter = st.date_input('Date')
-        insufficient_supply_df = insufficient_supply_df[insufficient_supply_df.index.date == day_to_filter]
-        st.subheader(f'PPE supply sentiment on {day_to_filter}')
+    st.markdown(
+        """
+        <iframe src="https://exploratory.io/viz/CNw7BmT9hR/Heatmap-of-Negative-Sentment-ZKX4OQh3Nj?embed=true" width="800" height="600" frameborder="0"></iframe>
+        """
+    , unsafe_allow_html=True)
 
-    st.pydeck_chart(pdk.Deck(
-        map_style="mapbox://styles/mapbox/light-v9",
-        mapbox_key=MAPBOX_API_KEY,
-        initial_view_state={
-            "latitude": midpoint[0],
-            "longitude": midpoint[1],
-            "zoom": 5.3,
-            "pitch": 40,
-            "bearing": -22.1,
-            "elevation_scale": 6
-        },
-        layers=[
-            pdk.Layer(
-                "HexagonLayer",
-                data=insufficient_supply_df,
-                get_position=["lon", "lat"],
-                elevation_scale=60,
-                pickable=True,
-                extruded=True,
-                coverage=0.8,
-                auto_highlight=True,
-                radius=1500
-            )
-        ],
-    ))
+
+    # if st.checkbox('Filter by day'):
+    #     day_to_filter = st.date_input('Date')
+    #     insufficient_supply_df = insufficient_supply_df[insufficient_supply_df.index.date == day_to_filter]
+    #     st.subheader(f'PPE supply sentiment on {day_to_filter}')
+
+    # st.pydeck_chart(pdk.Deck(
+    #     map_style="mapbox://styles/mapbox/light-v9",
+    #     mapbox_key=MAPBOX_API_KEY,
+    #     initial_view_state={
+    #         "latitude": midpoint[0],
+    #         "longitude": midpoint[1],
+    #         "zoom": 5.3,
+    #         "pitch": 40,
+    #         "bearing": -22.1,
+    #         "elevation_scale": 6
+    #     },
+    #     layers=[
+    #         pdk.Layer(
+    #             "HexagonLayer",
+    #             data=insufficient_supply_df,
+    #             get_position=["lon", "lat"],
+    #             elevation_scale=60,
+    #             pickable=True,
+    #             extruded=True,
+    #             coverage=0.8,
+    #             auto_highlight=True,
+    #             radius=1500
+    #         )
+    #     ],
+    # ))
 
 
 def render_supply_over_time(data):
