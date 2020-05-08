@@ -9,7 +9,7 @@ sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '6th May, 0900'
+LAST_UPDATE = '8th May, 1840'
 
 
 @st.cache()
@@ -20,7 +20,7 @@ def load_data():
 
 
 def render_sidebar():
-    st.sidebar.subheader("About This Project")
+    st.sidebar.header("About This Project")
     st.sidebar.warning(
         """
         This project is produced without any agenda, and the author(s) are not seeking to test any 
@@ -30,11 +30,21 @@ def render_sidebar():
          of Induction Healthcare Group PLC. 
         
         This is an [open source project](https://github.com/MedXInduction/ppe-project), and researchers are very welcome to
-        contribute comments, questions, and further analysis.
-        
-        Anonymised data is contained within the code repository.
+        contribute comments, questions, and further analysis. Anonymised data is available on [Github](https://github.com/MedXInduction/ppe-project).
 
         For queries about this project please contact the project lead, Dr Ed Wallitt via ed.w@inductionhealthcare.com
+        """
+    )
+
+    st.sidebar.subheader("Software used")
+    st.sidebar.markdown(
+        """
+        Data collected from users of the [Induction App](https://induction-app.com)
+        
+        Data analysis and presentation using:
+        
+        * [Streamlit](https://www.streamlit.io/)
+        * [Exploratory](https://exploratory.io/)
         """
     )
 
@@ -52,7 +62,8 @@ def render_sidebar():
 
 def render_content_header():
     st.title("The Sentiment of UK Clinicians on Personal Protective Equipment Supply in April and May 2020 ")
-    st.markdown("""*Dr Ed Wallitt - Chief Product Officer at Induction Healthcare Group*""")
+    st.markdown("""Author:""")
+    st.markdown("""*Dr Ed Wallitt MBBS BSc - Chief Product Officer at Induction Healthcare Group PLC*""")
     st.subheader("Last updated: " + LAST_UPDATE)
     st.warning("NEW: A more detailed data exploration is now available at "
                "https://exploratory.io/dashboard/CNw7BmT9hR/Frontline-PPE-Supply-Sentiment-AgF3AlA5zg")
@@ -86,8 +97,8 @@ def render_how_it_works():
     Since the 22nd April we have started collecting and sharing anonymous daily contributions measuring regional 
     clinician PPE sentiment. 
 
-    **NOTE: this data represents the personal feelings/sentiment of individual Frontline UK Clinicians about the 
-    availability and accessibility of PPE within their team. It does not directly measure supply** 
+    **NOTE: this data represents the personal feelings or sentiment of individual Frontline UK Clinicians about the 
+    availability and accessibility of PPE within their team. It does not directly measure supply.** 
     
     """
     )
@@ -98,30 +109,36 @@ def render_how_it_works():
 
 
 def render_initial_analysis(data):
-    st.header("UK PPE Supply Sentiment Responses")
+    st.header("UK PPE Supply and Availability Sentiment Responses")
     st.subheader("Do you feel you and your team have enough PPE today?")
     scoped_data = data.copy(deep=True)
     st.info("n = " + str(len(scoped_data)))
 
-    sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == True]
-    insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == False]
+    #sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == True]
+    #insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == False]
 
-    data = pd.DataFrame(
-        np.array([[len(sufficient_supply_df)], [len(insufficient_supply_df)]]),
-        columns=['Total Responses'],
-        index=['Yes', 'No']
-    )
+    #data = pd.DataFrame(
+    #    np.array([[len(sufficient_supply_df)], [len(insufficient_supply_df)]]),
+    #    columns=['Total Responses'],
+    #    index=['Yes', 'No']
+    #)
 
-    st.bar_chart(data, use_container_width=True)
+    # st.bar_chart(data, use_container_width=True)
+    st.markdown(
+        """
+        <iframe src="https://exploratory.io/viz/CNw7BmT9hR/Total-PPE-Responses-moG6tLn4zy?embed=true" width="500" height="375" frameborder="0"></iframe>
+        <hr />
+        """
+    , unsafe_allow_html=True)
 
 
 # @st.cache(persist=True, suppress_st_warning=True)
 def render_results_map(data):
-    scoped_data = data.copy(deep=True)
-    midpoint = (np.average(scoped_data["lat"]), np.average(scoped_data["lon"]))
+    # scoped_data = data.copy(deep=True)
+    # midpoint = (np.average(scoped_data["lat"]), np.average(scoped_data["lon"]))
 
-    sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 1]
-    insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 0]
+    # sufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 1]
+    # insufficient_supply_df = scoped_data[scoped_data['sufficient-supply'] == 0]
 
     st.header("PPE Supply Sentiment Map")
 
@@ -182,23 +199,32 @@ def render_supply_over_time(data):
     by_daily_supply['proportion-negative'] = (by_daily_supply[False] / by_daily_supply['total']) * 100
     by_daily_supply['proportion-positive'] = (by_daily_supply[True] / by_daily_supply['total']) * 100
 
-    st.subheader('Trend in PPE sentiment over time')
+    # st.info(f"Average number of clinicians reporting per day: {round(by_daily_supply['total'].mean())}")
 
-    st.info(f"Average number of clinicians reporting per day: {round(by_daily_supply['total'].mean())}")
+    #st.subheader('Trend in PPE sentiment over time')
+    st.markdown(
+    """
+        <iframe
+        src = "https://exploratory.io/viz/CNw7BmT9hR/PPE-Response-Sentiment-Split-Wud7CIF5gl?embed=true"
+        width = "800"
+        height = "600"
+        frameborder = "0" ></iframe>
+    """, unsafe_allow_html=True
+    )
 
-    ax = sns.lineplot(x="day_month", y='proportion-negative', data=by_daily_supply)
-    ax = sns.lineplot(x="day_month", y='proportion-positive', data=by_daily_supply)
-    ax.set(
-        xlabel='22nd April to ' + LAST_UPDATE.split(',')[0],
-        ylabel='Cumulative Average Sentiment',
-        ylim=(0, 100),
-        title='Clinicians '
-              'reporting '
-              'positive and negative PPE '
-              'supply '
-              'sentiment')
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
-    st.pyplot()
+    # ax = sns.lineplot(x="day_month", y='proportion-negative', data=by_daily_supply)
+    # ax = sns.lineplot(x="day_month", y='proportion-positive', data=by_daily_supply)
+    # ax.set(
+    #     xlabel='22nd April to ' + LAST_UPDATE.split(',')[0],
+    #     ylabel='Cumulative Average Sentiment',
+    #     ylim=(0, 100),
+    #     title='Clinicians '
+    #           'reporting '
+    #           'positive and negative PPE '
+    #           'supply '
+    #           'sentiment')
+    # ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
+    # st.pyplot()
 
     if st.checkbox('View raw data'):
         st.table(by_daily_supply)
@@ -211,7 +237,13 @@ def render_worst_performers():
         This figure shows in ascending order the bottom 170 hospital were positive sentiment towards PPE supply is being reported.
         """
     )
-    st.image('./static/images/negative_sentiment_performers.png', caption='Cumulative % Positive PPE Sentiment by Hospital Descending (n = 170)', use_column_width=True)
+    # st.image('./static/images/negative_sentiment_performers.png', caption='Cumulative % Positive PPE Sentiment by Hospital Descending (n = 170)', use_column_width=True)
+
+    st.markdown(
+        """
+        <iframe src="https://exploratory.io/viz/CNw7BmT9hR/PPE-Supply-Sentiment-by-Hospital-QKu9dYd9al?embed=true" width="800" height="600" frameborder="0"></iframe>
+        """
+    , unsafe_allow_html=True)
 
 def main():
     data = load_data()
@@ -219,8 +251,9 @@ def main():
     render_content_header()
     render_initial_analysis(data)
     render_supply_over_time(data)
-    render_worst_performers()
     render_results_map(data)
+    render_worst_performers()
+
     render_how_it_works()
 
 
