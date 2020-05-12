@@ -9,7 +9,7 @@ sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '11th May, 0600'
+LAST_UPDATE = '12th May, 0945'
 
 
 @st.cache()
