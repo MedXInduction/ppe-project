@@ -9,7 +9,7 @@ sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '15th May, 0330'
+LAST_UPDATE = '16th May, 2130'
 
 
 @st.cache()
@@ -130,6 +130,18 @@ def render_initial_analysis(data):
         <hr />
         """
     , unsafe_allow_html=True)
+
+    st.markdown(
+        """
+        <iframe
+        src = "https://exploratory.io/viz/CNw7BmT9hR/Overall-Trend-in-PPE-Supply-Sentiment-bFT1xqn4Qp?embed=true"
+        width = "800"
+        height = "600"
+        frameborder = "0" > < / iframe >
+        <hr />
+        """
+    , unsafe_allow_html=True)
+
 
 
 # @st.cache(persist=True, suppress_st_warning=True)
