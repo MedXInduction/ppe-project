@@ -4,12 +4,13 @@ import pandas as pd
 import pydeck as pdk
 import streamlit as st
 import seaborn as sns
+from datetime import date
 
 sns.set(style="darkgrid")
 
 MERGED_DATA_LOCATION = './data/ppe-merged-responses.csv'
 MAPBOX_API_KEY = os.environ.get('MAPBOX_TOKEN')
-LAST_UPDATE = '17th May, 2330'
+LAST_UPDATE = date.today().strftime("%B %d, %Y")
 
 
 @st.cache()
