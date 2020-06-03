@@ -123,3 +123,5 @@ notebooks/
 #private data
 data/all_people_data.csv
 .DS_Store
+.Rproj.user
+ppeuk.Rproj
