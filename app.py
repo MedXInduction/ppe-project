@@ -40,7 +40,7 @@ def render_sidebar():
     st.sidebar.subheader("Software used")
     st.sidebar.markdown(
         """
-        Data collected from users of the [Induction App](https://induction-app.com)
+        Data collected from users of the [Induction App](https://induction-app.com) between 22nd April to 24th June 2020.
         
         Data analysis and presentation using:
         
@@ -62,30 +62,19 @@ def render_sidebar():
 
 
 def render_content_header():
-    st.title("The Sentiment of UK Clinicians on Personal Protective Equipment Supply in April and May 2020 ")
-    st.markdown("""Author:""")
-    st.markdown("""*Dr Ed Wallitt MBBS BSc - Chief Product Officer at Induction Healthcare Group PLC*""")
-    st.subheader("Last updated: " + LAST_UPDATE)
-    st.warning("NEW: A more detailed data exploration is now available at "
-               "https://exploratory.io/dashboard/CNw7BmT9hR/Frontline-PPE-Supply-Sentiment-AgF3AlA5zg")
+    st.title("The Sentiment of UK Clinicians on Personal Protective Equipment Supply between April 22nd and June 24th, 2020")
+    st.markdown("""Author: Dr Edward Wallitt MBBS BSc - Product Lead for the Induction App""")
+    st.subheader("Data collection ended on 24th June, 2020")
     st.markdown(
         """
-        An open data project by the team at [Induction Healthcare](https://induction-app.com) and [
-        Microguide](http://www.microguide.eu/) examining regional daily clinician sentiment around PPE supply 
+        We have now completed data collection. A huge thank you to all those clinicians who contributed responses.
         
-        One of the best ways of tracking PPE availability is daily measuring of PPE sentiment - how do individual clinicians and 
-        their team(s) feel about the supply of PPE that is available to them on any given day?
-        
-        Since the 22nd April we have been asking a simple question to our 40,000 weekly users:
-        
+        We expect to publish our results sometime in late Summer 2020. All data and source code will remain in the public domain.
         """
     )
 
-    st.info("Do you feel you and your team have enough PPE today?")
-
-
 def render_how_it_works():
-    st.header("How it works?")
+    st.header("Method of Data Collection")
     st.markdown(
         """
     Induction Healthcare provides over 150,000 Frontline Healthcare Professionals with the resources and tools 
@@ -95,11 +84,11 @@ def render_how_it_works():
     healthcare professionals working with infected patients. It is requirement for them to work safely and to protect 
     the workforce and their families ([What is PPE?](https://www.bbc.co.uk/news/health-52254745)) 
 
-    Since the 22nd April we have started collecting and sharing anonymous daily contributions measuring regional 
+    Between 22nd April and 24th June 2020 we collected daily contributions measuring regional 
     clinician PPE sentiment. 
 
-    **NOTE: this data represents the personal feelings or sentiment of individual Frontline UK Clinicians about the 
-    availability and accessibility of PPE within their team. It does not directly measure supply.** 
+    **NOTE: this data represents the personal feelings or sentiment of individual frontline UK Clinicians about the 
+    availability and accessibility of PPE within their team. It does not directly measure supply, nor is intended to represent it as a surrogate.** 
     
     """
     )
@@ -161,7 +150,7 @@ def render_results_map(data):
         sentiment around PPE supply is, the lighter the  color the more positive. The larger the dot the more responses we have received from that location i.e. the 
         more confidence we can have in the shade of color.
 
-        NOTE: This data is cumulative, and shows total since collection started on the 22nd April. If you wish to 
+        NOTE: This data is cumulative, and shows the totals gathered between 22nd April and 24th June 2020. If you wish to 
         filter by day you can enter a date below.
         """
     )
